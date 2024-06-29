@@ -1,0 +1,1281 @@
+DIGEST 905ae5aecd83ca126b66d02d8d49eddc
+FS_3
+R44:46 S_2 <> <> lib
+mod 91:92 <> S3
+binder 131:131 <> x:1
+binder 144:144 <> y:2
+not 105:105 S3 :::'λ'_x_'..'_x_','_x
+def 306:310 S3 Union
+binder 312:312 <> x:3
+binder 314:314 <> y:4
+R319:321 S_2 S2 :::'\{'_x_'\}' not
+R342:344 S_2 S2 :::'\{'_x_'\}' not
+R322:324 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R326:327 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 325:325 <> z:5
+R333:336 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R329:331 S_1 S1 :::x_'∈'_x not
+R328:328 S_3 <> z:5 var
+R332:332 S_3 <> x:3 var
+R338:340 S_1 S1 :::x_'∈'_x not
+R337:337 S_3 <> z:5 var
+R341:341 S_3 <> y:4 var
+R370:374 S_3 S3 Union def
+not 357:357 S3 :::x_'∪'_x
+def 469:480 S3 Intersection
+binder 482:482 <> x:6
+binder 484:484 <> y:7
+R488:489 S_2 S2 :::'\{'_x_'\}' not
+R510:512 S_2 S2 :::'\{'_x_'\}' not
+R490:492 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R494:495 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 493:493 <> z:8
+R501:504 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R497:499 S_1 S1 :::x_'∈'_x not
+R496:496 S_3 <> z:8 var
+R500:500 S_3 <> x:6 var
+R506:508 S_1 S1 :::x_'∈'_x not
+R505:505 S_3 <> z:8 var
+R509:509 S_3 <> y:7 var
+R538:549 S_3 S3 Intersection def
+not 525:525 S3 :::x_'∩'_x
+prf 693:700 S3 Theorem4
+binder 711:711 <> x:9
+binder 713:713 <> y:10
+binder 715:715 <> z:11
+R732:736 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R723:726 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R719:721 S_1 S1 :::x_'∈'_x not
+R718:718 S_3 <> z:11 var
+R722:722 S_3 <> x:9 var
+R728:730 S_1 S1 :::x_'∈'_x not
+R727:727 S_3 <> z:11 var
+R731:731 S_3 <> y:10 var
+R738:743 S_1 S1 :::x_'∈'_x not
+R751:751 S_1 S1 :::x_'∈'_x not
+R737:737 S_3 <> z:11 var
+R745:749 S_3 S3 :::x_'∪'_x not
+R744:744 S_3 <> x:9 var
+R750:750 S_3 <> y:10 var
+R796:802 S_2 S2 AxiomII prfax
+R796:802 S_2 S2 AxiomII prfax
+R836:843 S_1 S1 Ensemble def
+R876:883 S_1 S1 Ensemble def
+R928:934 S_2 S2 AxiomII prfax
+R928:934 S_2 S2 AxiomII prfax
+prf 965:973 S3 Theorem4'
+binder 983:983 <> x:12
+binder 985:985 <> y:13
+binder 987:987 <> z:14
+R1006:1010 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R997:1000 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R993:995 S_1 S1 :::x_'∈'_x not
+R992:992 S_3 <> z:14 var
+R996:996 S_3 <> x:12 var
+R1002:1004 S_1 S1 :::x_'∈'_x not
+R1001:1001 S_3 <> z:14 var
+R1005:1005 S_3 <> y:13 var
+R1012:1017 S_1 S1 :::x_'∈'_x not
+R1025:1025 S_1 S1 :::x_'∈'_x not
+R1011:1011 S_3 <> z:14 var
+R1019:1023 S_3 S3 :::x_'∩'_x not
+R1018:1018 S_3 <> x:12 var
+R1024:1024 S_3 <> y:13 var
+R1068:1074 S_2 S2 AxiomII prfax
+R1068:1074 S_2 S2 AxiomII prfax
+R1107:1114 S_1 S1 Ensemble def
+R1159:1165 S_2 S2 AxiomII prfax
+R1159:1165 S_2 S2 AxiomII prfax
+prf 1236:1243 S3 Theorem5
+binder 1254:1254 <> x:15
+R1264:1266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1258:1262 S_3 S3 :::x_'∪'_x not
+R1257:1257 S_3 <> x:15 var
+R1263:1263 S_3 <> x:15 var
+R1267:1267 S_3 <> x:15 var
+R1292:1297 S_1 S1 AxiomI prfax
+R1292:1297 S_1 S1 AxiomI prfax
+R1324:1331 S_3 S3 Theorem4 thm
+R1324:1331 S_3 S3 Theorem4 thm
+R1357:1364 S_3 S3 Theorem4 thm
+R1357:1364 S_3 S3 Theorem4 thm
+prf 1388:1396 S3 Theorem5'
+binder 1407:1407 <> x:16
+R1419:1421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1413:1417 S_3 S3 :::x_'∩'_x not
+R1412:1412 S_3 <> x:16 var
+R1418:1418 S_3 <> x:16 var
+R1422:1422 S_3 <> x:16 var
+R1448:1453 S_1 S1 AxiomI prfax
+R1448:1453 S_1 S1 AxiomI prfax
+R1481:1489 S_3 S3 Theorem4' thm
+R1481:1489 S_3 S3 Theorem4' thm
+R1516:1524 S_3 S3 Theorem4' thm
+R1516:1524 S_3 S3 Theorem4' thm
+prf 1614:1621 S3 Theorem6
+binder 1631:1631 <> x:17
+binder 1633:1633 <> y:18
+R1645:1647 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1639:1643 S_3 S3 :::x_'∪'_x not
+R1638:1638 S_3 <> x:17 var
+R1644:1644 S_3 <> y:18 var
+R1649:1653 S_3 S3 :::x_'∪'_x not
+R1648:1648 S_3 <> y:18 var
+R1654:1654 S_3 <> x:17 var
+R1680:1685 S_1 S1 AxiomI prfax
+R1680:1685 S_1 S1 AxiomI prfax
+R1713:1720 S_3 S3 Theorem4 thm
+R1713:1720 S_3 S3 Theorem4 thm
+R1734:1741 S_3 S3 Theorem4 thm
+R1734:1741 S_3 S3 Theorem4 thm
+R1809:1816 S_3 S3 Theorem4 thm
+R1809:1816 S_3 S3 Theorem4 thm
+R1830:1837 S_3 S3 Theorem4 thm
+R1830:1837 S_3 S3 Theorem4 thm
+prf 1909:1917 S3 Theorem6'
+binder 1927:1927 <> x:19
+binder 1929:1929 <> y:20
+R1941:1943 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1935:1939 S_3 S3 :::x_'∩'_x not
+R1934:1934 S_3 <> x:19 var
+R1940:1940 S_3 <> y:20 var
+R1945:1949 S_3 S3 :::x_'∩'_x not
+R1944:1944 S_3 <> y:20 var
+R1950:1950 S_3 <> x:19 var
+R1976:1981 S_1 S1 AxiomI prfax
+R1976:1981 S_1 S1 AxiomI prfax
+R2009:2017 S_3 S3 Theorem4' thm
+R2009:2017 S_3 S3 Theorem4' thm
+R2031:2039 S_3 S3 Theorem4' thm
+R2031:2039 S_3 S3 Theorem4' thm
+R2077:2085 S_3 S3 Theorem4' thm
+R2077:2085 S_3 S3 Theorem4' thm
+R2099:2107 S_3 S3 Theorem4' thm
+R2099:2107 S_3 S3 Theorem4' thm
+prf 2219:2226 S3 Theorem7
+binder 2237:2237 <> x:21
+binder 2239:2239 <> y:22
+binder 2241:2241 <> z:23
+R2261:2263 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2246:2246 S_3 S3 :::x_'∪'_x not
+R2254:2259 S_3 S3 :::x_'∪'_x not
+R2248:2252 S_3 S3 :::x_'∪'_x not
+R2247:2247 S_3 <> x:21 var
+R2253:2253 S_3 <> y:22 var
+R2260:2260 S_3 <> z:23 var
+R2265:2270 S_3 S3 :::x_'∪'_x not
+R2278:2278 S_3 S3 :::x_'∪'_x not
+R2264:2264 S_3 <> x:21 var
+R2272:2276 S_3 S3 :::x_'∪'_x not
+R2271:2271 S_3 <> y:22 var
+R2277:2277 S_3 <> z:23 var
+R2304:2309 S_1 S1 AxiomI prfax
+R2304:2309 S_1 S1 AxiomI prfax
+R2337:2344 S_3 S3 Theorem4 thm
+R2337:2344 S_3 S3 Theorem4 thm
+R2353:2360 S_3 S3 Theorem4 thm
+R2353:2360 S_3 S3 Theorem4 thm
+R2392:2399 S_3 S3 Theorem4 thm
+R2392:2399 S_3 S3 Theorem4 thm
+R2459:2466 S_3 S3 Theorem4 thm
+R2459:2466 S_3 S3 Theorem4 thm
+R2503:2510 S_3 S3 Theorem4 thm
+R2503:2510 S_3 S3 Theorem4 thm
+R2539:2546 S_3 S3 Theorem4 thm
+R2539:2546 S_3 S3 Theorem4 thm
+R2555:2562 S_3 S3 Theorem4 thm
+R2555:2562 S_3 S3 Theorem4 thm
+R2600:2607 S_3 S3 Theorem4 thm
+R2600:2607 S_3 S3 Theorem4 thm
+R2637:2644 S_3 S3 Theorem4 thm
+R2637:2644 S_3 S3 Theorem4 thm
+R2682:2689 S_3 S3 Theorem4 thm
+R2682:2689 S_3 S3 Theorem4 thm
+prf 2744:2752 S3 Theorem7'
+binder 2763:2763 <> x:24
+binder 2765:2765 <> y:25
+binder 2767:2767 <> z:26
+R2788:2790 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2773:2773 S_3 S3 :::x_'∩'_x not
+R2781:2786 S_3 S3 :::x_'∩'_x not
+R2775:2779 S_3 S3 :::x_'∩'_x not
+R2774:2774 S_3 <> x:24 var
+R2780:2780 S_3 <> y:25 var
+R2787:2787 S_3 <> z:26 var
+R2792:2797 S_3 S3 :::x_'∩'_x not
+R2805:2805 S_3 S3 :::x_'∩'_x not
+R2791:2791 S_3 <> x:24 var
+R2799:2803 S_3 S3 :::x_'∩'_x not
+R2798:2798 S_3 <> y:25 var
+R2804:2804 S_3 <> z:26 var
+R2831:2836 S_1 S1 AxiomI prfax
+R2831:2836 S_1 S1 AxiomI prfax
+R2864:2872 S_3 S3 Theorem4' thm
+R2864:2872 S_3 S3 Theorem4' thm
+R2886:2894 S_3 S3 Theorem4' thm
+R2886:2894 S_3 S3 Theorem4' thm
+R2928:2936 S_3 S3 Theorem4' thm
+R2928:2936 S_3 S3 Theorem4' thm
+R2977:2985 S_3 S3 Theorem4' thm
+R2977:2985 S_3 S3 Theorem4' thm
+R3011:3019 S_3 S3 Theorem4' thm
+R3011:3019 S_3 S3 Theorem4' thm
+R3065:3073 S_3 S3 Theorem4' thm
+R3065:3073 S_3 S3 Theorem4' thm
+R3087:3095 S_3 S3 Theorem4' thm
+R3087:3095 S_3 S3 Theorem4' thm
+R3129:3137 S_3 S3 Theorem4' thm
+R3129:3137 S_3 S3 Theorem4' thm
+R3162:3170 S_3 S3 Theorem4' thm
+R3162:3170 S_3 S3 Theorem4' thm
+R3221:3229 S_3 S3 Theorem4' thm
+R3221:3229 S_3 S3 Theorem4' thm
+prf 3357:3364 S3 Theorem8
+binder 3375:3375 <> x:27
+binder 3377:3377 <> y:28
+binder 3379:3379 <> z:29
+R3400:3402 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3386:3391 S_3 S3 :::x_'∩'_x not
+R3399:3399 S_3 S3 :::x_'∩'_x not
+R3385:3385 S_3 <> x:27 var
+R3393:3397 S_3 S3 :::x_'∪'_x not
+R3392:3392 S_3 <> y:28 var
+R3398:3398 S_3 <> z:29 var
+R3403:3403 S_3 S3 :::x_'∪'_x not
+R3411:3417 S_3 S3 :::x_'∪'_x not
+R3425:3425 S_3 S3 :::x_'∪'_x not
+R3405:3409 S_3 S3 :::x_'∩'_x not
+R3404:3404 S_3 <> x:27 var
+R3410:3410 S_3 <> y:28 var
+R3419:3423 S_3 S3 :::x_'∩'_x not
+R3418:3418 S_3 <> x:27 var
+R3424:3424 S_3 <> z:29 var
+R3451:3456 S_1 S1 AxiomI prfax
+R3451:3456 S_1 S1 AxiomI prfax
+R3484:3491 S_3 S3 Theorem4 thm
+R3484:3491 S_3 S3 Theorem4 thm
+R3500:3508 S_3 S3 Theorem4' thm
+R3500:3508 S_3 S3 Theorem4' thm
+R3534:3541 S_3 S3 Theorem4 thm
+R3534:3541 S_3 S3 Theorem4 thm
+R3588:3596 S_3 S3 Theorem4' thm
+R3588:3596 S_3 S3 Theorem4' thm
+R3644:3652 S_3 S3 Theorem4' thm
+R3644:3652 S_3 S3 Theorem4' thm
+R3691:3698 S_3 S3 Theorem4 thm
+R3691:3698 S_3 S3 Theorem4 thm
+R3712:3720 S_3 S3 Theorem4' thm
+R3712:3720 S_3 S3 Theorem4' thm
+R3747:3755 S_3 S3 Theorem4' thm
+R3747:3755 S_3 S3 Theorem4' thm
+R3797:3804 S_3 S3 Theorem4 thm
+R3797:3804 S_3 S3 Theorem4 thm
+R3844:3852 S_3 S3 Theorem4' thm
+R3844:3852 S_3 S3 Theorem4' thm
+R3894:3901 S_3 S3 Theorem4 thm
+R3894:3901 S_3 S3 Theorem4 thm
+prf 3943:3951 S3 Theorem8'
+binder 3962:3962 <> x:30
+binder 3964:3964 <> y:31
+binder 3966:3966 <> z:32
+R3986:3988 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3972:3977 S_3 S3 :::x_'∪'_x not
+R3985:3985 S_3 S3 :::x_'∪'_x not
+R3971:3971 S_3 <> x:30 var
+R3979:3983 S_3 S3 :::x_'∩'_x not
+R3978:3978 S_3 <> y:31 var
+R3984:3984 S_3 <> z:32 var
+R3989:3989 S_3 S3 :::x_'∩'_x not
+R3997:4003 S_3 S3 :::x_'∩'_x not
+R4011:4011 S_3 S3 :::x_'∩'_x not
+R3991:3995 S_3 S3 :::x_'∪'_x not
+R3990:3990 S_3 <> x:30 var
+R3996:3996 S_3 <> y:31 var
+R4005:4009 S_3 S3 :::x_'∪'_x not
+R4004:4004 S_3 <> x:30 var
+R4010:4010 S_3 <> z:32 var
+R4037:4042 S_1 S1 AxiomI prfax
+R4037:4042 S_1 S1 AxiomI prfax
+R4069:4076 S_3 S3 Theorem4 thm
+R4069:4076 S_3 S3 Theorem4 thm
+R4090:4098 S_3 S3 Theorem4' thm
+R4090:4098 S_3 S3 Theorem4' thm
+R4132:4139 S_3 S3 Theorem4 thm
+R4132:4139 S_3 S3 Theorem4 thm
+R4163:4170 S_3 S3 Theorem4 thm
+R4163:4170 S_3 S3 Theorem4 thm
+R4200:4208 S_3 S3 Theorem4' thm
+R4200:4208 S_3 S3 Theorem4' thm
+R4241:4248 S_3 S3 Theorem4 thm
+R4241:4248 S_3 S3 Theorem4 thm
+R4279:4286 S_3 S3 Theorem4 thm
+R4279:4286 S_3 S3 Theorem4 thm
+R4316:4324 S_3 S3 Theorem4' thm
+R4316:4324 S_3 S3 Theorem4' thm
+R4338:4345 S_3 S3 Theorem4 thm
+R4338:4345 S_3 S3 Theorem4 thm
+R4366:4373 S_3 S3 Theorem4 thm
+R4366:4373 S_3 S3 Theorem4 thm
+R4366:4373 S_3 S3 Theorem4 thm
+R4488:4496 S_3 S3 Theorem4' thm
+R4488:4496 S_3 S3 Theorem4' thm
+def 4588:4592 S3 NotIn
+binder 4594:4594 <> x:33
+binder 4596:4596 <> y:34
+R4607:4607 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4609:4613 S_1 S1 :::x_'∈'_x not
+R4608:4608 S_3 <> x:33 var
+R4614:4614 S_3 <> y:34 var
+R4640:4644 S_3 S3 NotIn def
+not 4627:4627 S3 :::x_'∉'_x
+def 4711:4720 S3 Complement
+binder 4722:4722 <> x:35
+R4726:4730 S_1 S1 Class defax
+R4734:4735 S_2 S2 :::'\{'_x_'\}' not
+R4749:4751 S_2 S2 :::'\{'_x_'\}' not
+R4736:4738 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R4740:4741 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 4739:4739 <> y:36
+R4743:4747 S_3 S3 :::x_'∉'_x not
+R4742:4742 S_3 <> y:36 var
+R4748:4748 S_3 <> x:35 var
+R4774:4783 S_3 S3 Complement def
+not 4764:4764 S3 :::'¬'_x
+ax 4898:4904 S3 classic
+binder 4915:4915 <> p:37
+R4919:4922 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4918:4918 S_3 <> p:37 var
+R4923:4924 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4925:4925 S_3 <> p:37 var
+prf 4971:4979 S3 Theorem11
+binder 4990:4990 <> x:39
+R5004:5006 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4995:4998 S_3 S3 :::'¬'_x not
+R5003:5003 S_3 S3 :::'¬'_x not
+R4999:5001 S_3 S3 :::'¬'_x not
+R5002:5002 S_3 <> x:39 var
+R5007:5007 S_3 <> x:39 var
+R5033:5038 S_1 S1 AxiomI prfax
+R5033:5038 S_1 S1 AxiomI prfax
+R5066:5072 S_2 S2 AxiomII prfax
+R5066:5072 S_2 S2 AxiomII prfax
+R5106:5112 S_3 S3 classic prfax
+R5116:5120 S_1 S1 :::x_'∈'_x not
+R5106:5112 S_3 S3 classic prfax
+R5116:5120 S_1 S1 :::x_'∈'_x not
+R5155:5159 S_3 S3 NotIn def
+R5175:5177 Coq.Init.Logic <> not def
+R5201:5207 S_2 S2 AxiomII prfax
+R5201:5207 S_2 S2 AxiomII prfax
+R5265:5271 S_2 S2 AxiomII prfax
+R5265:5271 S_2 S2 AxiomII prfax
+R5295:5302 S_1 S1 Ensemble def
+R5337:5341 S_3 S3 NotIn def
+R5357:5363 S_2 S2 AxiomII prfax
+R5357:5363 S_2 S2 AxiomII prfax
+prf 5412:5422 S3 not_or_and'
+binder 5432:5432 <> P:40
+binder 5434:5434 <> Q:41
+R5447:5450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5437:5439 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5446:5446 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5441:5444 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5440:5440 S_3 <> P:40 var
+R5445:5445 S_3 <> Q:41 var
+R5454:5457 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5451:5452 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5453:5453 S_3 <> P:40 var
+R5458:5459 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5460:5460 S_3 <> Q:41 var
+R5505:5507 Coq.Init.Logic <> not def
+R5558:5560 Coq.Init.Logic <> not def
+prf 5720:5730 S3 not_and_or'
+binder 5740:5740 <> P:42
+binder 5742:5742 <> Q:43
+R5755:5758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5745:5747 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5754:5754 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5749:5752 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5748:5748 S_3 <> P:42 var
+R5753:5753 S_3 <> Q:43 var
+R5762:5765 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5759:5760 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5761:5761 S_3 <> P:42 var
+R5766:5767 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5768:5768 S_3 <> Q:43 var
+R5798:5804 S_3 S3 classic prfax
+R5798:5804 S_3 S3 classic prfax
+prf 5926:5934 S3 L_inverse
+binder 5946:5946 <> A:44
+binder 5948:5948 <> B:45
+R5961:5961 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5969:5973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5963:5967 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5962:5962 S_3 <> A:44 var
+R5968:5968 S_3 <> B:45 var
+R5974:5974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5978:5982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5985:5985 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5975:5976 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5977:5977 S_3 <> A:44 var
+R5983:5983 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5984:5984 S_3 <> B:45 var
+R6004:6006 Coq.Init.Logic <> not def
+prf 6159:6167 S3 Theorem12
+binder 6178:6178 <> x:46
+binder 6180:6180 <> y:47
+R6197:6199 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6185:6188 S_3 S3 :::'¬'_x not
+R6196:6196 S_3 S3 :::'¬'_x not
+R6190:6194 S_3 S3 :::x_'∪'_x not
+R6189:6189 S_3 <> x:46 var
+R6195:6195 S_3 <> y:47 var
+R6200:6200 S_3 S3 :::x_'∩'_x not
+R6205:6211 S_3 S3 :::x_'∩'_x not
+R6216:6216 S_3 S3 :::x_'∩'_x not
+R6201:6203 S_3 S3 :::'¬'_x not
+R6204:6204 S_3 <> x:46 var
+R6212:6214 S_3 S3 :::'¬'_x not
+R6215:6215 S_3 <> y:47 var
+R6242:6247 S_1 S1 AxiomI prfax
+R6242:6247 S_1 S1 AxiomI prfax
+R6275:6281 S_2 S2 AxiomII prfax
+R6275:6281 S_2 S2 AxiomII prfax
+R6309:6313 S_3 S3 NotIn def
+R6359:6362 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6353:6357 S_1 S1 :::x_'∈'_x not
+R6364:6368 S_1 S1 :::x_'∈'_x not
+R6332:6340 S_3 S3 L_inverse thm
+R6359:6362 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6353:6357 S_1 S1 :::x_'∈'_x not
+R6364:6368 S_1 S1 :::x_'∈'_x not
+R6332:6340 S_3 S3 L_inverse thm
+R6392:6400 S_3 S3 Theorem4' thm
+R6392:6400 S_3 S3 Theorem4' thm
+R6425:6431 S_2 S2 AxiomII prfax
+R6425:6431 S_2 S2 AxiomII prfax
+R6600:6606 S_2 S2 AxiomII prfax
+R6600:6606 S_2 S2 AxiomII prfax
+R6705:6712 S_3 S3 Theorem4 thm
+R6705:6712 S_3 S3 Theorem4 thm
+R6705:6712 S_3 S3 Theorem4 thm
+R6747:6753 S_2 S2 AxiomII prfax
+R6747:6753 S_2 S2 AxiomII prfax
+R6779:6785 S_2 S2 AxiomII prfax
+R6779:6785 S_2 S2 AxiomII prfax
+R6827:6831 S_3 S3 NotIn def
+R6880:6883 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6874:6878 S_1 S1 :::x_'∈'_x not
+R6885:6889 S_1 S1 :::x_'∈'_x not
+R6853:6861 S_3 S3 L_inverse thm
+R6880:6883 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6874:6878 S_1 S1 :::x_'∈'_x not
+R6885:6889 S_1 S1 :::x_'∈'_x not
+R6853:6861 S_3 S3 L_inverse thm
+R6916:6923 S_3 S3 Theorem4 thm
+R6916:6923 S_3 S3 Theorem4 thm
+R6916:6923 S_3 S3 Theorem4 thm
+R6940:6946 S_2 S2 AxiomII prfax
+R6940:6946 S_2 S2 AxiomII prfax
+R6940:6946 S_2 S2 AxiomII prfax
+prf 7083:7092 S3 Theorem12'
+binder 7103:7103 <> x:48
+binder 7105:7105 <> y:49
+R7123:7125 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7111:7114 S_3 S3 :::'¬'_x not
+R7122:7122 S_3 S3 :::'¬'_x not
+R7116:7120 S_3 S3 :::x_'∩'_x not
+R7115:7115 S_3 <> x:48 var
+R7121:7121 S_3 <> y:49 var
+R7126:7126 S_3 S3 :::x_'∪'_x not
+R7131:7137 S_3 S3 :::x_'∪'_x not
+R7142:7142 S_3 S3 :::x_'∪'_x not
+R7127:7129 S_3 S3 :::'¬'_x not
+R7130:7130 S_3 <> x:48 var
+R7138:7140 S_3 S3 :::'¬'_x not
+R7141:7141 S_3 <> y:49 var
+R7168:7173 S_1 S1 AxiomI prfax
+R7168:7173 S_1 S1 AxiomI prfax
+R7201:7207 S_2 S2 AxiomII prfax
+R7201:7207 S_2 S2 AxiomII prfax
+R7234:7238 S_3 S3 NotIn def
+R7284:7287 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7278:7282 S_1 S1 :::x_'∈'_x not
+R7289:7293 S_1 S1 :::x_'∈'_x not
+R7257:7265 S_3 S3 L_inverse thm
+R7284:7287 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7278:7282 S_1 S1 :::x_'∈'_x not
+R7289:7293 S_1 S1 :::x_'∈'_x not
+R7257:7265 S_3 S3 L_inverse thm
+R7317:7324 S_3 S3 Theorem4 thm
+R7317:7324 S_3 S3 Theorem4 thm
+R7338:7344 S_3 S3 classic prfax
+R7348:7352 S_1 S1 :::x_'∈'_x not
+R7338:7344 S_3 S3 classic prfax
+R7348:7352 S_1 S1 :::x_'∈'_x not
+R7380:7386 S_2 S2 AxiomII prfax
+R7380:7386 S_2 S2 AxiomII prfax
+R7448:7454 S_2 S2 AxiomII prfax
+R7448:7454 S_2 S2 AxiomII prfax
+R7500:7508 S_3 S3 Theorem4' thm
+R7500:7508 S_3 S3 Theorem4' thm
+R7500:7508 S_3 S3 Theorem4' thm
+R7521:7527 S_2 S2 AxiomII prfax
+R7521:7527 S_2 S2 AxiomII prfax
+R7571:7577 S_2 S2 AxiomII prfax
+R7571:7577 S_2 S2 AxiomII prfax
+R7600:7604 S_3 S3 NotIn def
+R7646:7649 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7640:7644 S_1 S1 :::x_'∈'_x not
+R7651:7655 S_1 S1 :::x_'∈'_x not
+R7619:7627 S_3 S3 L_inverse thm
+R7646:7649 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7640:7644 S_1 S1 :::x_'∈'_x not
+R7651:7655 S_1 S1 :::x_'∈'_x not
+R7619:7627 S_3 S3 L_inverse thm
+R7680:7688 S_3 S3 Theorem4' thm
+R7680:7688 S_3 S3 Theorem4' thm
+R7680:7688 S_3 S3 Theorem4' thm
+R7723:7729 S_2 S2 AxiomII prfax
+R7723:7729 S_2 S2 AxiomII prfax
+R7778:7784 S_2 S2 AxiomII prfax
+R7778:7784 S_2 S2 AxiomII prfax
+R7810:7814 S_3 S3 NotIn def
+R7837:7845 S_3 S3 Theorem4' thm
+R7837:7845 S_3 S3 Theorem4' thm
+R7873:7879 S_2 S2 AxiomII prfax
+R7873:7879 S_2 S2 AxiomII prfax
+def 7973:7980 S3 Setminus
+binder 7982:7982 <> x:50
+binder 7984:7984 <> y:51
+R7988:7992 S_1 S1 Class defax
+R7998:8003 S_3 S3 :::x_'∩'_x not
+R8008:8008 S_3 S3 :::x_'∩'_x not
+R7997:7997 S_3 <> x:50 var
+R8004:8006 S_3 S3 :::'¬'_x not
+R8007:8007 S_3 <> y:51 var
+R8034:8041 S_3 S3 Setminus def
+not 8021:8021 S3 :::x_'~'_x
+prf 8130:8138 S3 Theorem14
+binder 8149:8149 <> x:52
+binder 8151:8151 <> y:53
+binder 8153:8153 <> z:54
+R8172:8173 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8160:8165 S_3 S3 :::x_'∩'_x not
+R8171:8171 S_3 S3 :::x_'∩'_x not
+R8159:8159 S_3 <> x:52 var
+R8167:8169 S_3 S3 :::x_'~'_x not
+R8166:8166 S_3 <> y:53 var
+R8170:8170 S_3 <> z:54 var
+R8174:8174 S_3 S3 :::x_'~'_x not
+R8182:8185 S_3 S3 :::x_'~'_x not
+R8176:8180 S_3 S3 :::x_'∩'_x not
+R8175:8175 S_3 <> x:52 var
+R8181:8181 S_3 <> y:53 var
+R8186:8186 S_3 <> z:54 var
+R8270:8275 S_1 S1 AxiomI prfax
+R8270:8275 S_1 S1 AxiomI prfax
+R8303:8309 S_2 S2 AxiomII prfax
+R8303:8309 S_2 S2 AxiomII prfax
+R8352:8358 S_2 S2 AxiomII prfax
+R8352:8358 S_2 S2 AxiomII prfax
+R8410:8416 S_2 S2 AxiomII prfax
+R8410:8416 S_2 S2 AxiomII prfax
+R8458:8464 S_2 S2 AxiomII prfax
+R8458:8464 S_2 S2 AxiomII prfax
+R8516:8522 S_2 S2 AxiomII prfax
+R8516:8522 S_2 S2 AxiomII prfax
+R8573:8579 S_2 S2 AxiomII prfax
+R8573:8579 S_2 S2 AxiomII prfax
+R8618:8624 S_2 S2 AxiomII prfax
+R8618:8624 S_2 S2 AxiomII prfax
+R8644:8652 S_3 S3 Theorem4' thm
+R8644:8652 S_3 S3 Theorem4' thm
+R8689:8697 S_3 S3 Theorem4' thm
+R8689:8697 S_3 S3 Theorem4' thm
+R8742:8748 S_2 S2 AxiomII prfax
+R8742:8748 S_2 S2 AxiomII prfax
+def 8860:8869 S3 Inequality
+R8877:8881 S_1 S1 Class defax
+binder 8872:8872 <> x:55
+binder 8874:8874 <> y:56
+R8894:8896 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8902:8902 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8898:8900 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8897:8897 S_3 <> x:55 var
+R8901:8901 S_3 <> y:56 var
+R8929:8938 S_3 S3 Inequality def
+not 8915:8915 S3 :::x_'≠'_x
+prf 9011:9023 S3 Property_Ineq
+binder 9034:9034 <> x:57
+binder 9036:9036 <> y:58
+R9039:9039 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9047:9053 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9061:9061 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9041:9045 S_3 S3 :::x_'≠'_x not
+R9040:9040 S_3 <> x:57 var
+R9046:9046 S_3 <> y:58 var
+R9055:9059 S_3 S3 :::x_'≠'_x not
+R9054:9054 S_3 <> y:58 var
+R9060:9060 S_3 <> x:57 var
+R9103:9112 S_3 S3 Inequality def
+R9124:9133 S_3 S3 Inequality def
+def 9308:9309 S3 Φ
+R9313:9317 S_1 S1 Class defax
+R9322:9324 S_2 S2 :::'\{'_x_'\}' not
+R9338:9340 S_2 S2 :::'\{'_x_'\}' not
+R9325:9327 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R9329:9330 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 9328:9328 <> x:59
+R9332:9336 S_3 S3 :::x_'≠'_x not
+R9331:9331 S_3 <> x:59 var
+R9337:9337 S_3 <> x:59 var
+prf 9377:9385 S3 Theorem16
+binder 9396:9396 <> x:60
+R9402:9404 S_3 S3 :::x_'∉'_x not
+R9401:9401 S_3 <> x:60 var
+R9405:9406 S_3 S3 Φ def
+R9433:9437 S_3 S3 NotIn def
+R9471:9477 S_2 S2 AxiomII prfax
+R9471:9477 S_2 S2 AxiomII prfax
+prf 9570:9578 S3 Theorem17
+binder 9589:9589 <> x:61
+R9603:9605 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9597:9601 S_3 S3 :::x_'∪'_x not
+R9595:9596 S_3 S3 Φ def
+R9602:9602 S_3 <> x:61 var
+R9606:9606 S_3 <> x:61 var
+R9633:9638 S_1 S1 AxiomI prfax
+R9633:9638 S_1 S1 AxiomI prfax
+R9666:9673 S_3 S3 Theorem4 thm
+R9666:9673 S_3 S3 Theorem4 thm
+R9699:9707 S_3 S3 Theorem16 thm
+R9699:9707 S_3 S3 Theorem16 thm
+R9750:9757 S_3 S3 Theorem4 thm
+R9750:9757 S_3 S3 Theorem4 thm
+prf 9781:9790 S3 Theorem17'
+binder 9801:9801 <> x:62
+R9815:9817 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9809:9813 S_3 S3 :::x_'∩'_x not
+R9807:9808 S_3 S3 Φ def
+R9814:9814 S_3 <> x:62 var
+R9818:9819 S_3 S3 Φ def
+R9845:9850 S_1 S1 AxiomI prfax
+R9845:9850 S_1 S1 AxiomI prfax
+R9878:9886 S_3 S3 Theorem4' thm
+R9878:9886 S_3 S3 Theorem4' thm
+R9922:9930 S_3 S3 Theorem4' thm
+R9922:9930 S_3 S3 Theorem4' thm
+R9964:9972 S_3 S3 Theorem16 thm
+R9964:9972 S_3 S3 Theorem16 thm
+prf 10008:10009 S3 LL
+binder 10020:10020 <> A:63
+R10030:10033 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10029:10029 S_3 <> A:63 var
+R10035:10038 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10034:10034 S_3 <> A:63 var
+R10039:10039 S_3 <> A:63 var
+prf 10087:10096 S3 Theorem14'
+binder 10107:10107 <> x:64
+binder 10109:10109 <> y:65
+binder 10111:10111 <> z:66
+R10130:10133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10125:10127 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10119:10123 S_3 S3 :::x_'∩'_x not
+R10118:10118 S_3 <> x:64 var
+R10124:10124 S_3 <> z:66 var
+R10128:10129 S_3 S3 Φ def
+R10147:10148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10135:10140 S_3 S3 :::x_'∪'_x not
+R10146:10146 S_3 S3 :::x_'∪'_x not
+R10134:10134 S_3 <> x:64 var
+R10142:10144 S_3 S3 :::x_'~'_x not
+R10141:10141 S_3 <> y:65 var
+R10145:10145 S_3 <> z:66 var
+R10149:10149 S_3 S3 :::x_'~'_x not
+R10157:10160 S_3 S3 :::x_'~'_x not
+R10151:10155 S_3 S3 :::x_'∪'_x not
+R10150:10150 S_3 <> x:64 var
+R10156:10156 S_3 <> y:65 var
+R10161:10161 S_3 <> z:66 var
+R10196:10201 S_1 S1 AxiomI prfax
+R10196:10201 S_1 S1 AxiomI prfax
+R10229:10235 S_2 S2 AxiomII prfax
+R10229:10235 S_2 S2 AxiomII prfax
+R10282:10288 S_2 S2 AxiomII prfax
+R10282:10288 S_2 S2 AxiomII prfax
+R10325:10332 S_3 S3 Theorem4 thm
+R10325:10332 S_3 S3 Theorem4 thm
+R10356:10362 S_2 S2 AxiomII prfax
+R10356:10362 S_2 S2 AxiomII prfax
+R10404:10408 S_1 S1 :::x_'∈'_x not
+R10409:10410 S_3 S3 Φ def
+R10404:10408 S_1 S1 :::x_'∈'_x not
+R10409:10410 S_3 S3 Φ def
+R10435:10443 S_3 S3 Theorem4' thm
+R10435:10443 S_3 S3 Theorem4' thm
+R10468:10476 S_3 S3 Theorem16 thm
+R10468:10476 S_3 S3 Theorem16 thm
+R10503:10511 S_3 S3 Theorem4' thm
+R10503:10511 S_3 S3 Theorem4' thm
+R10535:10543 S_3 S3 Theorem4' thm
+R10535:10543 S_3 S3 Theorem4' thm
+R10571:10578 S_3 S3 Theorem4 thm
+R10571:10578 S_3 S3 Theorem4 thm
+R10602:10610 S_3 S3 Theorem4' thm
+R10602:10610 S_3 S3 Theorem4' thm
+R10636:10644 S_3 S3 Theorem4' thm
+R10636:10644 S_3 S3 Theorem4' thm
+R10659:10666 S_3 S3 Theorem4 thm
+R10659:10666 S_3 S3 Theorem4 thm
+R10689:10696 S_3 S3 Theorem4 thm
+R10689:10696 S_3 S3 Theorem4 thm
+R10747:10755 S_3 S3 Theorem4' thm
+R10747:10755 S_3 S3 Theorem4' thm
+def 10810:10811 S3 μ
+R10815:10819 S_1 S1 Class defax
+R10823:10824 S_2 S2 :::'\{'_x_'\}' not
+R10836:10838 S_2 S2 :::'\{'_x_'\}' not
+R10825:10827 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R10829:10830 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 10828:10828 <> x:67
+R10832:10834 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10831:10831 S_3 <> x:67 var
+R10835:10835 S_3 <> x:67 var
+prf 10897:10907 S3 Property_μ
+binder 10918:10918 <> x:68
+R10935:10937 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10924:10929 S_3 S3 :::x_'∪'_x not
+R10934:10934 S_3 S3 :::x_'∪'_x not
+R10923:10923 S_3 <> x:68 var
+R10930:10932 S_3 S3 :::'¬'_x not
+R10933:10933 S_3 <> x:68 var
+R10938:10939 S_3 S3 μ def
+R10965:10970 S_1 S1 AxiomI prfax
+R10965:10970 S_1 S1 AxiomI prfax
+R10998:11004 S_2 S2 AxiomII prfax
+R10998:11004 S_2 S2 AxiomII prfax
+R11018:11024 S_2 S2 AxiomII prfax
+R11018:11024 S_2 S2 AxiomII prfax
+R11110:11116 S_2 S2 AxiomII prfax
+R11110:11116 S_2 S2 AxiomII prfax
+R11125:11131 S_2 S2 AxiomII prfax
+R11125:11131 S_2 S2 AxiomII prfax
+R11170:11176 S_3 S3 classic prfax
+R11181:11185 S_1 S1 :::x_'∈'_x not
+R11170:11176 S_3 S3 classic prfax
+R11181:11185 S_1 S1 :::x_'∈'_x not
+R11245:11251 S_2 S2 AxiomII prfax
+R11245:11251 S_2 S2 AxiomII prfax
+prf 11338:11346 S3 Theorem19
+binder 11357:11357 <> x:69
+R11370:11374 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11363:11367 S_1 S1 :::x_'∈'_x not
+R11362:11362 S_3 <> x:69 var
+R11368:11369 S_3 S3 μ def
+R11375:11382 S_1 S1 Ensemble def
+R11384:11384 S_3 <> x:69 var
+R11429:11435 S_2 S2 AxiomII prfax
+R11429:11435 S_2 S2 AxiomII prfax
+R11461:11467 S_2 S2 AxiomII prfax
+R11461:11467 S_2 S2 AxiomII prfax
+prf 11532:11540 S3 Theorem20
+binder 11551:11551 <> x:70
+R11564:11566 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11557:11561 S_3 S3 :::x_'∪'_x not
+R11556:11556 S_3 <> x:70 var
+R11562:11563 S_3 S3 μ def
+R11567:11568 S_3 S3 μ def
+R11594:11599 S_1 S1 AxiomI prfax
+R11594:11599 S_1 S1 AxiomI prfax
+R11627:11633 S_2 S2 AxiomII prfax
+R11627:11633 S_2 S2 AxiomII prfax
+R11678:11686 S_3 S3 Theorem19 thm
+R11678:11686 S_3 S3 Theorem19 thm
+R11717:11723 S_2 S2 AxiomII prfax
+R11717:11723 S_2 S2 AxiomII prfax
+R11745:11753 S_3 S3 Theorem19 thm
+R11745:11753 S_3 S3 Theorem19 thm
+prf 11794:11803 S3 Theorem20'
+binder 11814:11814 <> x:71
+R11827:11829 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11820:11824 S_3 S3 :::x_'∩'_x not
+R11819:11819 S_3 <> x:71 var
+R11825:11826 S_3 S3 μ def
+R11830:11830 S_3 <> x:71 var
+R11857:11862 S_1 S1 AxiomI prfax
+R11857:11862 S_1 S1 AxiomI prfax
+R11890:11898 S_3 S3 Theorem4' thm
+R11890:11898 S_3 S3 Theorem4' thm
+R11923:11931 S_3 S3 Theorem4' thm
+R11923:11931 S_3 S3 Theorem4' thm
+R11953:11961 S_3 S3 Theorem19 thm
+R11953:11961 S_3 S3 Theorem19 thm
+R11971:11978 S_1 S1 Ensemble def
+prf 12066:12074 S3 Theorem21
+R12083:12085 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12078:12080 S_3 S3 :::'¬'_x not
+R12081:12082 S_3 S3 Φ def
+R12086:12087 S_3 S3 μ def
+R12113:12118 S_1 S1 AxiomI prfax
+R12113:12118 S_1 S1 AxiomI prfax
+R12146:12154 S_3 S3 Theorem19 thm
+R12146:12154 S_3 S3 Theorem19 thm
+R12164:12171 S_1 S1 Ensemble def
+R12181:12183 S_3 S3 :::'¬'_x not
+R12184:12185 S_3 S3 Φ def
+R12181:12183 S_3 S3 :::'¬'_x not
+R12184:12185 S_3 S3 Φ def
+R12207:12215 S_3 S3 Theorem19 thm
+R12207:12215 S_3 S3 Theorem19 thm
+R12229:12235 S_2 S2 AxiomII prfax
+R12229:12235 S_2 S2 AxiomII prfax
+R12260:12268 S_3 S3 Theorem16 thm
+R12260:12268 S_3 S3 Theorem16 thm
+prf 12285:12294 S3 Theorem21'
+R12302:12304 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12297:12299 S_3 S3 :::'¬'_x not
+R12300:12301 S_3 S3 μ def
+R12305:12306 S_3 S3 Φ def
+R12332:12337 S_1 S1 AxiomI prfax
+R12332:12337 S_1 S1 AxiomI prfax
+R12365:12371 S_2 S2 AxiomII prfax
+R12365:12371 S_2 S2 AxiomII prfax
+R12397:12405 S_3 S3 Theorem19 thm
+R12397:12405 S_3 S3 Theorem19 thm
+R12438:12444 S_2 S2 AxiomII prfax
+R12438:12444 S_2 S2 AxiomII prfax
+R12470:12478 S_3 S3 Theorem19 thm
+R12470:12478 S_3 S3 Theorem19 thm
+def 12582:12590 S3 Element_I
+binder 12592:12592 <> x:72
+R12596:12600 S_1 S1 Class defax
+R12605:12607 S_2 S2 :::'\{'_x_'\}' not
+R12642:12644 S_2 S2 :::'\{'_x_'\}' not
+R12608:12610 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R12612:12613 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 12611:12611 <> z:73
+binder 12621:12621 <> y:74
+R12631:12634 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12625:12629 S_1 S1 :::x_'∈'_x not
+R12624:12624 S_3 <> y:74 var
+R12630:12630 S_3 <> x:72 var
+R12636:12640 S_1 S1 :::x_'∈'_x not
+R12635:12635 S_3 <> z:73 var
+R12641:12641 S_3 <> y:74 var
+R12669:12677 S_3 S3 Element_I def
+not 12657:12657 S3 :::'∩'_x
+def 12768:12776 S3 Element_U
+binder 12778:12778 <> x:75
+R12782:12786 S_1 S1 Class defax
+R12791:12793 S_2 S2 :::'\{'_x_'\}' not
+R12828:12830 S_2 S2 :::'\{'_x_'\}' not
+R12794:12796 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R12798:12799 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 12797:12797 <> z:76
+R12800:12806 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12808:12809 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12807:12807 <> y:77
+R12817:12820 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12811:12815 S_1 S1 :::x_'∈'_x not
+R12810:12810 S_3 <> z:76 var
+R12816:12816 S_3 <> y:77 var
+R12822:12826 S_1 S1 :::x_'∈'_x not
+R12821:12821 S_3 <> y:77 var
+R12827:12827 S_3 <> x:75 var
+R12855:12863 S_3 S3 Element_U def
+not 12843:12843 S3 :::'∪'_x
+prf 12932:12940 S3 Theorem24
+R12951:12953 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12945:12948 S_3 S3 :::'∩'_x not
+R12949:12950 S_3 S3 Φ def
+R12954:12955 S_3 S3 μ def
+R12981:12986 S_1 S1 AxiomI prfax
+R12981:12986 S_1 S1 AxiomI prfax
+R13014:13020 S_2 S2 AxiomII prfax
+R13014:13020 S_2 S2 AxiomII prfax
+R13046:13054 S_3 S3 Theorem19 thm
+R13046:13054 S_3 S3 Theorem19 thm
+R13076:13082 S_2 S2 AxiomII prfax
+R13076:13082 S_2 S2 AxiomII prfax
+R13105:13112 S_1 S1 Ensemble def
+R13122:13123 S_3 S3 μ def
+R13122:13123 S_3 S3 μ def
+R13166:13174 S_3 S3 Theorem16 thm
+R13166:13174 S_3 S3 Theorem16 thm
+prf 13212:13221 S3 Theorem24'
+R13231:13233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13225:13228 S_3 S3 :::'∪'_x not
+R13229:13230 S_3 S3 Φ def
+R13234:13235 S_3 S3 Φ def
+R13261:13266 S_1 S1 AxiomI prfax
+R13261:13266 S_1 S1 AxiomI prfax
+R13294:13300 S_2 S2 AxiomII prfax
+R13294:13300 S_2 S2 AxiomII prfax
+R13356:13364 S_3 S3 Theorem16 thm
+R13356:13364 S_3 S3 Theorem16 thm
+R13398:13406 S_3 S3 Theorem16 thm
+R13398:13406 S_3 S3 Theorem16 thm
+def 13633:13640 S3 Included
+binder 13642:13642 <> x:78
+binder 13644:13644 <> y:79
+binder 13663:13663 <> z:80
+R13671:13674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13667:13669 S_1 S1 :::x_'∈'_x not
+R13666:13666 S_3 <> z:80 var
+R13670:13670 S_3 <> x:78 var
+R13676:13678 S_1 S1 :::x_'∈'_x not
+R13675:13675 S_3 <> z:80 var
+R13679:13679 S_3 <> y:79 var
+R13706:13713 S_3 S3 Included def
+not 13692:13692 S3 :::x_'⊂'_x
+prf 13965:13973 S3 Theorem26
+binder 13984:13984 <> x:81
+R13989:13993 S_3 S3 :::x_'⊂'_x not
+R13987:13988 S_3 S3 Φ def
+R13994:13994 S_3 <> x:81 var
+R14022:14029 S_3 S3 Included def
+R14046:14054 S_3 S3 Theorem16 thm
+R14046:14054 S_3 S3 Theorem16 thm
+prf 14091:14100 S3 Theorem26'
+binder 14111:14111 <> x:82
+R14115:14119 S_3 S3 :::x_'⊂'_x not
+R14114:14114 S_3 <> x:82 var
+R14120:14121 S_3 S3 μ def
+R14148:14155 S_3 S3 Included def
+R14172:14180 S_3 S3 Theorem19 thm
+R14172:14180 S_3 S3 Theorem19 thm
+R14190:14197 S_1 S1 Ensemble def
+prf 14295:14303 S3 Theorem27
+binder 14314:14314 <> x:83
+binder 14316:14316 <> y:84
+R14319:14319 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14325:14330 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14321:14323 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14320:14320 S_3 <> x:83 var
+R14324:14324 S_3 <> y:84 var
+R14331:14331 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14339:14344 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14352:14352 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14333:14337 S_3 S3 :::x_'⊂'_x not
+R14332:14332 S_3 <> x:83 var
+R14338:14338 S_3 <> y:84 var
+R14346:14350 S_3 S3 :::x_'⊂'_x not
+R14345:14345 S_3 <> y:84 var
+R14351:14351 S_3 <> x:83 var
+R14405:14412 S_3 S3 Included def
+R14484:14491 S_3 S3 Included def
+R14508:14513 S_1 S1 AxiomI prfax
+R14508:14513 S_1 S1 AxiomI prfax
+prf 14620:14628 S3 Theorem28
+binder 14639:14639 <> x:85
+binder 14641:14641 <> y:86
+binder 14643:14643 <> z:87
+R14668:14672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14680:14680 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14646:14646 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14654:14659 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14667:14667 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14648:14652 S_3 S3 :::x_'⊂'_x not
+R14647:14647 S_3 <> x:85 var
+R14653:14653 S_3 <> y:86 var
+R14661:14665 S_3 S3 :::x_'⊂'_x not
+R14660:14660 S_3 <> y:86 var
+R14666:14666 S_3 <> z:87 var
+R14674:14678 S_3 S3 :::x_'⊂'_x not
+R14673:14673 S_3 <> x:85 var
+R14679:14679 S_3 <> z:87 var
+R14719:14726 S_3 S3 Included def
+prf 14813:14821 S3 Theorem29
+binder 14832:14832 <> x:88
+binder 14834:14834 <> y:89
+R14844:14848 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14838:14842 S_3 S3 :::x_'⊂'_x not
+R14837:14837 S_3 <> x:88 var
+R14843:14843 S_3 <> y:89 var
+R14849:14849 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14857:14860 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14851:14855 S_3 S3 :::x_'∪'_x not
+R14850:14850 S_3 <> x:88 var
+R14856:14856 S_3 <> y:89 var
+R14861:14861 S_3 <> y:89 var
+R14906:14911 S_1 S1 AxiomI prfax
+R14906:14911 S_1 S1 AxiomI prfax
+R14949:14955 S_2 S2 AxiomII prfax
+R14949:14955 S_2 S2 AxiomII prfax
+R15003:15010 S_3 S3 Included def
+R15050:15056 S_2 S2 AxiomII prfax
+R15050:15056 S_2 S2 AxiomII prfax
+R15080:15087 S_1 S1 Ensemble def
+R15130:15137 S_3 S3 Included def
+R15154:15159 S_1 S1 AxiomI prfax
+R15154:15159 S_1 S1 AxiomI prfax
+R15198:15205 S_3 S3 Theorem4 thm
+R15198:15205 S_3 S3 Theorem4 thm
+prf 15285:15293 S3 Theorem30
+binder 15304:15304 <> x:90
+binder 15306:15306 <> y:91
+R15316:15320 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15310:15314 S_3 S3 :::x_'⊂'_x not
+R15309:15309 S_3 <> x:90 var
+R15315:15315 S_3 <> y:91 var
+R15321:15321 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15329:15332 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15323:15327 S_3 S3 :::x_'∩'_x not
+R15322:15322 S_3 <> x:90 var
+R15328:15328 S_3 <> y:91 var
+R15333:15333 S_3 <> x:90 var
+R15378:15383 S_1 S1 AxiomI prfax
+R15378:15383 S_1 S1 AxiomI prfax
+R15421:15429 S_3 S3 Theorem4' thm
+R15421:15429 S_3 S3 Theorem4' thm
+R15469:15477 S_3 S3 Theorem4' thm
+R15469:15477 S_3 S3 Theorem4' thm
+R15500:15507 S_3 S3 Included def
+R15532:15539 S_3 S3 Included def
+R15556:15561 S_1 S1 AxiomI prfax
+R15556:15561 S_1 S1 AxiomI prfax
+R15606:15614 S_3 S3 Theorem4' thm
+R15606:15614 S_3 S3 Theorem4' thm
+prf 15716:15724 S3 Theorem31
+binder 15735:15735 <> x:92
+binder 15737:15737 <> y:93
+R15740:15740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15748:15752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15742:15746 S_3 S3 :::x_'⊂'_x not
+R15741:15741 S_3 <> x:92 var
+R15747:15747 S_3 <> y:93 var
+R15753:15753 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15767:15772 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15786:15786 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15758:15762 S_3 S3 :::x_'⊂'_x not
+R15754:15756 S_3 S3 :::'∪'_x not
+R15757:15757 S_3 <> x:92 var
+R15763:15765 S_3 S3 :::'∪'_x not
+R15766:15766 S_3 <> y:93 var
+R15777:15781 S_3 S3 :::x_'⊂'_x not
+R15773:15775 S_3 S3 :::'∩'_x not
+R15776:15776 S_3 <> y:93 var
+R15782:15784 S_3 S3 :::'∩'_x not
+R15785:15785 S_3 <> x:92 var
+R15824:15831 S_3 S3 Included def
+R15848:15854 S_2 S2 AxiomII prfax
+R15848:15854 S_2 S2 AxiomII prfax
+R15863:15869 S_2 S2 AxiomII prfax
+R15863:15869 S_2 S2 AxiomII prfax
+R15977:15984 S_3 S3 Included def
+R16030:16037 S_3 S3 Included def
+R16054:16060 S_2 S2 AxiomII prfax
+R16054:16060 S_2 S2 AxiomII prfax
+R16069:16075 S_2 S2 AxiomII prfax
+R16069:16075 S_2 S2 AxiomII prfax
+R16134:16141 S_3 S3 Included def
+prf 16247:16255 S3 Theorem32
+binder 16266:16266 <> x:94
+binder 16268:16268 <> y:95
+R16271:16271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16279:16283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16273:16277 S_1 S1 :::x_'∈'_x not
+R16272:16272 S_3 <> x:94 var
+R16278:16278 S_3 <> y:95 var
+R16284:16284 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16295:16300 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16311:16311 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16286:16290 S_3 S3 :::x_'⊂'_x not
+R16285:16285 S_3 <> x:94 var
+R16291:16293 S_3 S3 :::'∪'_x not
+R16294:16294 S_3 <> y:95 var
+R16305:16309 S_3 S3 :::x_'⊂'_x not
+R16301:16303 S_3 S3 :::'∩'_x not
+R16304:16304 S_3 <> y:95 var
+R16310:16310 S_3 <> x:94 var
+R16349:16356 S_3 S3 Included def
+R16373:16379 S_2 S2 AxiomII prfax
+R16373:16379 S_2 S2 AxiomII prfax
+R16402:16409 S_1 S1 Ensemble def
+R16461:16468 S_3 S3 Included def
+R16485:16491 S_2 S2 AxiomII prfax
+R16485:16491 S_2 S2 AxiomII prfax
+def 16560:16573 S3 ProperIncluded
+binder 16575:16575 <> x:96
+binder 16577:16577 <> y:97
+R16596:16599 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16590:16594 S_3 S3 :::x_'⊂'_x not
+R16589:16589 S_3 <> x:96 var
+R16595:16595 S_3 <> y:97 var
+R16601:16605 S_3 S3 :::x_'≠'_x not
+R16600:16600 S_3 <> x:96 var
+R16606:16606 S_3 <> y:97 var
+R16633:16646 S_3 S3 ProperIncluded def
+not 16619:16619 S3 :::x_'⊊'_x
+prf 16679:16701 S3 Property_ProperIncluded
+binder 16712:16712 <> x:98
+binder 16714:16714 <> y:99
+R16726:16729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16720:16724 S_3 S3 :::x_'⊂'_x not
+R16719:16719 S_3 <> x:98 var
+R16725:16725 S_3 <> y:99 var
+R16730:16730 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R16738:16742 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R16732:16736 S_3 S3 :::x_'⊊'_x not
+R16731:16731 S_3 <> x:98 var
+R16737:16737 S_3 <> y:99 var
+R16744:16746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16743:16743 S_3 <> x:98 var
+R16747:16747 S_3 <> y:99 var
+R16777:16783 S_3 S3 classic prfax
+R16787:16787 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16777:16783 S_3 S3 classic prfax
+R16787:16787 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16821:16834 S_3 S3 ProperIncluded def
+prf 16925:16937 S3 imply_to_and'
+binder 16948:16948 <> P:100
+binder 16950:16950 <> Q:101
+R16968:16971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16958:16960 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16967:16967 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16962:16965 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16961:16961 S_3 <> P:100 var
+R16966:16966 S_3 <> Q:101 var
+R16973:16976 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16972:16972 S_3 <> P:100 var
+R16977:16978 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16979:16979 S_3 <> Q:101 var
+R17009:17015 S_3 S3 classic prfax
+R17009:17015 S_3 S3 classic prfax
+prf 17115:17119 S3 NNPP'
+binder 17129:17129 <> p:102
+R17137:17140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17132:17133 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17134:17135 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17136:17136 S_3 <> p:102 var
+R17141:17141 S_3 <> p:102 var
+R17171:17177 S_3 S3 classic prfax
+R17171:17177 S_3 S3 classic prfax
+prf 17238:17252 S3 not_all_not_ex'
+R17269:17272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17264:17268 S_1 S1 Class defax
+binder 17262:17262 <> P:103
+R17299:17303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17280:17282 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17298:17298 Coq.Init.Logic <> ::type_scope:'~'_x not
+binder 17290:17290 <> n:104
+R17293:17294 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17295:17295 S_3 <> P:103 var
+R17297:17297 S_3 <> n:104 var
+R17304:17310 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R17312:17313 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 17311:17311 <> n:105
+R17314:17314 S_3 <> P:103 var
+R17316:17316 S_3 <> n:105 var
+R17342:17346 S_3 S3 NNPP' thm
+R17342:17346 S_3 S3 NNPP' thm
+prf 17421:17435 S3 not_all_ex_not'
+R17453:17456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17448:17452 S_1 S1 Class defax
+binder 17446:17446 <> P:106
+R17483:17486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17466:17468 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17482:17482 Coq.Init.Logic <> ::type_scope:'~'_x not
+binder 17476:17476 <> n:107
+R17479:17479 S_3 <> P:106 var
+R17481:17481 S_3 <> n:107 var
+R17487:17493 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R17495:17496 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 17494:17494 <> n:108
+R17497:17498 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17499:17499 S_3 <> P:106 var
+R17501:17501 S_3 <> n:108 var
+binder 17558:17558 <> x:109
+R17563:17564 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17567:17567 S_3 <> x:109 var
+R17529:17543 S_3 S3 not_all_not_ex' thm
+binder 17558:17558 <> x:110
+R17563:17564 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17567:17567 S_3 <> x:110 var
+R17529:17543 S_3 S3 not_all_not_ex' thm
+R17602:17606 S_3 S3 NNPP' thm
+R17602:17606 S_3 S3 NNPP' thm
+prf 17632:17655 S3 Property_ProperIncluded'
+binder 17666:17666 <> x:111
+binder 17668:17668 <> y:112
+R17680:17683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17674:17678 S_3 S3 :::x_'⊊'_x not
+R17673:17673 S_3 <> x:111 var
+R17679:17679 S_3 <> y:112 var
+R17684:17690 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R17692:17693 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 17691:17691 <> z:113
+R17701:17704 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17695:17699 S_1 S1 :::x_'∈'_x not
+R17694:17694 S_3 <> z:113 var
+R17700:17700 S_3 <> y:112 var
+R17706:17710 S_3 S3 :::x_'∉'_x not
+R17705:17705 S_3 <> z:113 var
+R17711:17711 S_3 <> x:111 var
+R17740:17753 S_3 S3 ProperIncluded def
+R17809:17812 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17803:17807 S_3 S3 :::x_'⊂'_x not
+R17814:17818 S_3 S3 :::x_'⊂'_x not
+R17781:17789 S_3 S3 L_inverse thm
+R17809:17812 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17803:17807 S_3 S3 :::x_'⊂'_x not
+R17814:17818 S_3 S3 :::x_'⊂'_x not
+R17781:17789 S_3 S3 L_inverse thm
+R17838:17848 S_3 S3 not_and_or' thm
+R17838:17848 S_3 S3 not_and_or' thm
+R17894:17901 S_3 S3 Included def
+R17916:17930 S_3 S3 not_all_ex_not' thm
+R17916:17930 S_3 S3 not_all_ex_not' thm
+R17960:17972 S_3 S3 imply_to_and' thm
+R17960:17972 S_3 S3 imply_to_and' thm
+R18004:18012 S_3 S3 Theorem27 thm
+R18004:18012 S_3 S3 Theorem27 thm
+prf 18029:18039 S3 Property_Φ
+binder 18050:18050 <> x:114
+binder 18052:18052 <> y:115
+R18062:18065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18056:18060 S_3 S3 :::x_'⊂'_x not
+R18055:18055 S_3 <> y:115 var
+R18061:18061 S_3 <> x:114 var
+R18076:18080 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R18071:18073 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18067:18069 S_3 S3 :::x_'~'_x not
+R18066:18066 S_3 <> x:114 var
+R18070:18070 S_3 <> y:115 var
+R18074:18075 S_3 S3 Φ def
+R18082:18084 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18081:18081 S_3 <> x:114 var
+R18085:18085 S_3 <> y:115 var
+R18129:18137 S_3 S3 Theorem27 thm
+R18129:18137 S_3 S3 Theorem27 thm
+R18163:18185 S_3 S3 Property_ProperIncluded thm
+R18163:18185 S_3 S3 Property_ProperIncluded thm
+R18215:18238 S_3 S3 Property_ProperIncluded' thm
+R18215:18238 S_3 S3 Property_ProperIncluded' thm
+R18284:18289 S_1 S1 :::x_'∈'_x not
+R18295:18295 S_1 S1 :::x_'∈'_x not
+R18291:18293 S_3 S3 :::x_'~'_x not
+R18284:18289 S_1 S1 :::x_'∈'_x not
+R18295:18295 S_1 S1 :::x_'∈'_x not
+R18291:18293 S_3 S3 :::x_'~'_x not
+R18312:18319 S_3 S3 Setminus def
+R18328:18336 S_3 S3 Theorem4' thm
+R18328:18336 S_3 S3 Theorem4' thm
+R18366:18372 S_2 S2 AxiomII prfax
+R18366:18372 S_2 S2 AxiomII prfax
+R18389:18396 S_1 S1 Ensemble def
+R18458:18466 S_3 S3 Theorem16 thm
+R18458:18466 S_3 S3 Theorem16 thm
+R18500:18508 S_3 S3 Theorem27 thm
+R18500:18508 S_3 S3 Theorem27 thm
+R18545:18552 S_3 S3 Setminus def
+R18561:18566 S_1 S1 AxiomI prfax
+R18561:18566 S_1 S1 AxiomI prfax
+R18613:18619 S_2 S2 AxiomII prfax
+R18613:18619 S_2 S2 AxiomII prfax
+R18665:18671 S_2 S2 AxiomII prfax
+R18665:18671 S_2 S2 AxiomII prfax
+R18720:18728 S_3 S3 Theorem16 thm
+R18720:18728 S_3 S3 Theorem16 thm
+R18762:18763 S_3 S3 <> mod

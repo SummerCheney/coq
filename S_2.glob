@@ -1,0 +1,27 @@
+DIGEST 023df29463b8666a1668d20583dde474
+FS_2
+R48:50 S_1 <> <> lib
+mod 61:62 <> S2
+ax 93:102 S2 Classifier
+R121:124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R116:120 S_1 S1 Class defax
+binder 113:113 <> P:1
+R131:135 S_1 S1 Class defax
+R162:171 S_2 S2 Classifier defax
+not 148:148 S2 :::'\{'_x_'\}'
+ax 227:233 S2 AxiomII
+binder 244:244 <> b:3
+binder 246:246 <> P:4
+R262:266 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R250:254 S_1 S1 :::x_'∈'_x not
+R249:249 S_2 <> b:3 var
+R255:257 S_2 S2 :::'\{'_x_'\}' not
+R259:261 S_2 S2 :::'\{'_x_'\}' not
+R258:258 S_2 <> P:4 var
+R277:281 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R285:285 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R267:274 S_1 S1 Ensemble def
+R276:276 S_2 <> b:3 var
+R282:282 S_2 <> P:4 var
+R284:284 S_2 <> b:3 var
+R294:295 S_2 S2 <> mod

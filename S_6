@@ -1,0 +1,159 @@
+(* S.6 序偶：关系 *)
+Require Export S_5.
+
+
+Module S6.
+
+(* 定义63 f是一个函数当且仅当f是一个关系 当且仅当对每一个x,每一个y,每一个z,如果(x,y)∈f且
+(x,z)∈f,则y=z *)
+
+Definition Function f : Prop :=
+  Relation f /\ ( forall x y z, [x,y] ∈ f /\ [x,z]∈ f -> y = z).
+
+
+
+(* 定理64 如果f是一个函数同时g是一个函数，则f和g的合成也是一个函数 *)
+
+Theorem Theorem64: forall f g,
+  Function f /\ Function g -> Function ( f ∘ g ).
+Proof.
+  intros; destruct H; unfold Function; split. 
+  - unfold Relation; intros. PP H1 a b. eauto.
+  - intros. destruct H1. apply AxiomII_P in H1,H2. destruct H1,H2,H3,H4,H3,H4.
+    unfold Function in H,H0. destruct H,H0.
+    assert (x0=x1). { apply H8 with x; split; auto. }
+    rewrite H9 in H5. apply H7 with x1. eauto.
+Qed.
+
+
+(* 定义65 f的定义域={x:对于某个y,(x,y)∈f} *)
+
+Definition Domain f : Class :=\{ λ x, exists y, [x,y] ∈ f \}.
+
+Notation "dom( f )" := (Domain f)(at level 5).
+
+(* 定义域性质*)
+
+Corollary Property_dom: forall x y f,
+  [x,y] ∈ f -> x ∈ dom( f ).
+Proof.
+  intros. unfold Domain. apply AxiomII; split; eauto.
+  assert ( Ensemble [x,y]). unfold Ensemble. eauto. apply Theorem49 in H0. 
+  tauto.
+Qed.
+
+
+(* 定义66 f的值域={y:对于某个x,(x,y)∈f} *)
+
+Definition Range f : Class :=\{ λ y, exists x, [x,y] ∈ f \}.
+
+Notation "ran( f )":= (Range f)(at level 5).
+
+(* 值域的性质 *)
+Corollary Property_ran : forall x y f,
+  [x,y] ∈ f ->  y ∈ ran( f ).
+Proof.
+  intros. unfold Range. apply AxiomII; split; eauto.
+  assert ( Ensemble [x,y]). unfold Ensemble. eauto. apply Theorem49 in H0. 
+  tauto.
+Qed.
+
+
+(* 定理67 μ的定义域=μ同时μ的值域=μ *)
+
+Theorem Theorem57: dom( μ ) = μ /\ ran( μ ) = μ.
+Proof.
+  split; apply AxiomI; split; intros.
+  - apply Theorem19. apply AxiomII in H. tauto.
+  - apply Theorem19 in H. unfold Domain. apply AxiomII; split; eauto. 
+    exists z. apply Theorem19. apply Theorem49; auto.
+  - apply Theorem19. apply AxiomII in H. tauto.
+  - apply Theorem19 in H. unfold Range. apply AxiomII; split; eauto.
+    exists z. apply Theorem19. apply Theorem49; auto.
+Qed.
+
+
+(* 定义68  f(x)=∩{y:[x,y]∈f} *)
+
+Definition Value f x : Class := ∩ \{ λ y, [x,y] ∈ f \}.
+
+Notation "f [ x ]" := (Value f x)(at level 5).
+
+
+(* 值的性质一 *)
+
+Corollary Property_Value : forall f x,
+  Function f -> x ∈ dom( f ) -> [x,f[x]] ∈ f.
+Proof.
+  intros. unfold Function in H. destruct H as [_ H]. (*缺省*)
+  apply AxiomII in H0. destruct H0,H1. (*H1用法*) 
+  assert (x0=f[x]). apply AxiomI; split; intros.
+  - apply AxiomII. split; intros. unfold Ensemble. exists x0. auto.
+    apply AxiomII in H3. destruct H3. assert (x0=y). 
+  { apply H with x; auto. }  (* apply H with x 的用法*)
+   rewrite H5 in H2. auto.
+  - apply AxiomII in H2. destruct H2 as [_ H2].
+    apply H2. apply AxiomII; split; auto. assert (Ensemble ([x,x0])). 
+
+
+(* 定理59 如果x不属于f的定义域，则f(x)=μ；如果x∈f的定义域，则f(x)∈μ.*)
+
+(* Theorem Theorem59: forall x f,
+  ( x ∉ (dom( f )) -> f[x] = μ ) /\ ( x ∈ dom( f ) -> (f[x]) ∈  μ ).
+Proof.
+  split; intros.
+  - assert (\{ λ y, [x,y] ∈ f \} = Φ).
+    { apply AxiomI. split; intros. 
+      apply AxiomII in H0; destruct H0. apply Property_dom in H1;
+      contradiction. elim H. generalize (Theorem16 z). intro. contradiction. }
+    unfold Value. rewrite H0. apply Theorem24. (* 对应中午中文书中的“则” *)
+  - assert (\{ λ y, [x,y] ∈ f \} <> Φ).
+    { intro. apply AxiomII in H. destruct H,H1.
+      generalize (AxiomI \{ λ y : Class,[x, y] ∈ f \} Φ). intro; destruct H2.
+      apply H2 with x0 in H0; destruct H0.
+      assert (x0 ∈ Φ).
+       { apply H0. apply AxiomII. split; auto.
+          assert (Ensemble [x, x0]).;  apply Theorem49 in H5; tauto. } } *)
+
+
+
+(* 值的性质 二 *)
+
+Corollary Property_Value' : forall f x,
+  Function f -> f[x] ∈ ran(f) -> [x,f[x]] ∈ f.
+Proof.
+  intros. unfold Function in H. destruct H as [_ H].
+
+
+
+
+
+(* 定理70 如果f是一个函数，则f={[x,y]:y=f[x]} *)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

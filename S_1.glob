@@ -1,0 +1,36 @@
+DIGEST 7b389e00ce2177a09358a80666d0410d
+FS_1
+mod 37:38 <> S1
+ax 125:129 S1 Class
+ax 186:187 S1 In
+R196:198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R191:195 S_1 S1 Class defax
+R204:206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R199:203 S_1 S1 Class defax
+R235:236 S_1 S1 In defax
+not 223:223 S1 :::x_'∈'_x
+ax 385:390 S1 AxiomI
+binder 401:401 <> x:3
+binder 403:403 <> y:4
+R409:413 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R441:441 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R407:407 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R406:406 S_1 <> x:3 var
+R408:408 S_1 <> y:4 var
+binder 421:421 <> z:5
+R429:433 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R425:427 S_1 S1 :::x_'∈'_x not
+R424:424 S_1 <> z:5 var
+R428:428 S_1 <> x:3 var
+R435:439 S_1 S1 :::x_'∈'_x not
+R434:434 S_1 <> z:5 var
+R440:440 S_1 <> y:4 var
+def 517:524 S1 Ensemble
+binder 526:526 <> x:7
+R531:537 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R539:540 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 538:538 <> y:8
+R542:546 S_1 S1 :::x_'∈'_x not
+R541:541 S_1 <> x:7 var
+R547:547 S_1 <> y:8 var
+R556:557 S_1 S1 <> mod

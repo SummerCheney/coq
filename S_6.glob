@@ -1,0 +1,717 @@
+DIGEST 094d2e0c37a9a26f7cb6f307d391314c
+FS_6
+R32:34 S_5 <> <> lib
+mod 45:46 <> S6
+def 176:183 S6 Function
+binder 185:185 <> f:1
+R209:214 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R263:263 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R199:206 S_5 S5 Relation def
+R208:208 S_6 <> f:1 var
+binder 222:222 <> x:2
+binder 224:224 <> y:3
+binder 226:226 <> z:4
+R254:257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R240:243 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R234:238 S_1 S1 :::x_'∈'_x not
+R229:229 S_5 S5 :::'['_x_','_x_']' not
+R231:231 S_5 S5 :::'['_x_','_x_']' not
+R233:233 S_5 S5 :::'['_x_','_x_']' not
+R230:230 S_6 <> x:2 var
+R232:232 S_6 <> y:3 var
+R239:239 S_6 <> f:1 var
+R249:252 S_1 S1 :::x_'∈'_x not
+R244:244 S_5 S5 :::'['_x_','_x_']' not
+R246:246 S_5 S5 :::'['_x_','_x_']' not
+R248:248 S_5 S5 :::'['_x_','_x_']' not
+R245:245 S_6 <> x:2 var
+R247:247 S_6 <> z:4 var
+R253:253 S_6 <> f:1 var
+R259:261 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R258:258 S_6 <> y:3 var
+R262:262 S_6 <> z:4 var
+prf 553:561 S6 Theorem64
+binder 571:571 <> f:5
+binder 573:573 <> g:6
+R602:605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R588:591 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R578:585 S_6 S6 Function def
+R587:587 S_6 <> f:5 var
+R592:599 S_6 S6 Function def
+R601:601 S_6 <> g:6 var
+R606:613 S_6 S6 Function def
+R618:622 S_5 S5 :::x_'∘'_x not
+R617:617 S_6 <> f:5 var
+R623:623 S_6 <> g:6 var
+R666:673 S_6 S6 Function def
+R714:721 S_5 S5 Relation def
+R743:752 S_5 S5 Property_P prfax
+R743:752 S_5 S5 Property_P prfax
+R822:830 S_5 S5 AxiomII_P prfax
+R822:830 S_5 S5 AxiomII_P prfax
+R863:871 S_5 S5 AxiomII_P prfax
+R863:871 S_5 S5 AxiomII_P prfax
+R911:913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R911:913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+def 1065:1070 S6 Domain
+binder 1072:1072 <> f:7
+R1076:1080 S_1 S1 Class defax
+R1084:1086 S_2 S2 :::'\{'_x_'\}' not
+R1114:1116 S_2 S2 :::'\{'_x_'\}' not
+R1087:1089 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R1091:1092 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 1090:1090 <> x:8
+R1093:1099 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1101:1102 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1100:1100 <> y:9
+R1108:1112 S_1 S1 :::x_'∈'_x not
+R1103:1103 S_5 S5 :::'['_x_','_x_']' not
+R1105:1105 S_5 S5 :::'['_x_','_x_']' not
+R1107:1107 S_5 S5 :::'['_x_','_x_']' not
+R1104:1104 S_6 <> x:8 var
+R1106:1106 S_6 <> y:9 var
+R1113:1113 S_6 <> f:7 var
+R1144:1149 S_6 S6 Domain def
+not 1129:1129 S6 :::'dom('_x_')'
+prf 1259:1270 S6 Property_dom
+binder 1280:1280 <> x:10
+binder 1282:1282 <> y:11
+binder 1284:1284 <> f:12
+R1300:1303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1294:1298 S_1 S1 :::x_'∈'_x not
+R1289:1289 S_5 S5 :::'['_x_','_x_']' not
+R1291:1291 S_5 S5 :::'['_x_','_x_']' not
+R1293:1293 S_5 S5 :::'['_x_','_x_']' not
+R1290:1290 S_6 <> x:10 var
+R1292:1292 S_6 <> y:11 var
+R1299:1299 S_6 <> f:12 var
+R1305:1309 S_1 S1 :::x_'∈'_x not
+R1304:1304 S_6 <> x:10 var
+R1310:1314 S_6 S6 :::'dom('_x_')' not
+R1316:1317 S_6 S6 :::'dom('_x_')' not
+R1315:1315 S_6 <> f:12 var
+R1343:1349 S_2 S2 AxiomII prfax
+R1343:1349 S_2 S2 AxiomII prfax
+R1376:1383 S_1 S1 Ensemble def
+R1385:1385 S_5 S5 :::'['_x_','_x_']' not
+R1387:1387 S_5 S5 :::'['_x_','_x_']' not
+R1389:1389 S_5 S5 :::'['_x_','_x_']' not
+R1376:1383 S_1 S1 Ensemble def
+R1385:1385 S_5 S5 :::'['_x_','_x_']' not
+R1387:1387 S_5 S5 :::'['_x_','_x_']' not
+R1389:1389 S_5 S5 :::'['_x_','_x_']' not
+R1402:1409 S_1 S1 Ensemble def
+R1429:1437 S_5 S5 Theorem49 thm
+R1429:1437 S_5 S5 Theorem49 thm
+def 1519:1523 S6 Range
+binder 1525:1525 <> f:13
+R1529:1533 S_1 S1 Class defax
+R1537:1539 S_2 S2 :::'\{'_x_'\}' not
+R1567:1569 S_2 S2 :::'\{'_x_'\}' not
+R1540:1542 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R1544:1545 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 1543:1543 <> y:14
+R1546:1552 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1554:1555 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1553:1553 <> x:15
+R1561:1565 S_1 S1 :::x_'∈'_x not
+R1556:1556 S_5 S5 :::'['_x_','_x_']' not
+R1558:1558 S_5 S5 :::'['_x_','_x_']' not
+R1560:1560 S_5 S5 :::'['_x_','_x_']' not
+R1557:1557 S_6 <> x:15 var
+R1559:1559 S_6 <> y:14 var
+R1566:1566 S_6 <> f:13 var
+R1596:1600 S_6 S6 Range def
+not 1582:1582 S6 :::'ran('_x_')'
+prf 1708:1719 S6 Property_ran
+binder 1730:1730 <> x:16
+binder 1732:1732 <> y:17
+binder 1734:1734 <> f:18
+R1750:1753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1744:1748 S_1 S1 :::x_'∈'_x not
+R1739:1739 S_5 S5 :::'['_x_','_x_']' not
+R1741:1741 S_5 S5 :::'['_x_','_x_']' not
+R1743:1743 S_5 S5 :::'['_x_','_x_']' not
+R1740:1740 S_6 <> x:16 var
+R1742:1742 S_6 <> y:17 var
+R1749:1749 S_6 <> f:18 var
+R1755:1759 S_1 S1 :::x_'∈'_x not
+R1754:1754 S_6 <> y:17 var
+R1760:1764 S_6 S6 :::'ran('_x_')' not
+R1766:1767 S_6 S6 :::'ran('_x_')' not
+R1765:1765 S_6 <> f:18 var
+R1793:1799 S_2 S2 AxiomII prfax
+R1793:1799 S_2 S2 AxiomII prfax
+R1826:1833 S_1 S1 Ensemble def
+R1835:1835 S_5 S5 :::'['_x_','_x_']' not
+R1837:1837 S_5 S5 :::'['_x_','_x_']' not
+R1839:1839 S_5 S5 :::'['_x_','_x_']' not
+R1826:1833 S_1 S1 Ensemble def
+R1835:1835 S_5 S5 :::'['_x_','_x_']' not
+R1837:1837 S_5 S5 :::'['_x_','_x_']' not
+R1839:1839 S_5 S5 :::'['_x_','_x_']' not
+R1851:1858 S_1 S1 Ensemble def
+R1878:1886 S_5 S5 Theorem49 thm
+R1878:1886 S_5 S5 Theorem49 thm
+prf 1970:1978 S6 Theorem67
+R1995:1998 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1990:1992 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1981:1985 S_6 S6 :::'dom('_x_')' not
+R1988:1989 S_6 S6 :::'dom('_x_')' not
+R1986:1987 S_3 S3 μ def
+R1993:1994 S_3 S3 μ def
+R2008:2010 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1999:2003 S_6 S6 :::'ran('_x_')' not
+R2006:2007 S_6 S6 :::'ran('_x_')' not
+R2004:2005 S_3 S3 μ def
+R2011:2012 S_3 S3 μ def
+R2041:2046 S_1 S1 AxiomI prfax
+R2041:2046 S_1 S1 AxiomI prfax
+R2076:2082 S_2 S2 AxiomII prfax
+R2076:2082 S_2 S2 AxiomII prfax
+R2102:2110 S_3 S3 Theorem19 thm
+R2102:2110 S_3 S3 Theorem19 thm
+R2136:2144 S_3 S3 Theorem19 thm
+R2136:2144 S_3 S3 Theorem19 thm
+R2158:2164 S_2 S2 AxiomII prfax
+R2158:2164 S_2 S2 AxiomII prfax
+R2194:2201 S_1 S1 Ensemble def
+R2194:2201 S_1 S1 Ensemble def
+R2245:2253 S_3 S3 Theorem19 thm
+R2245:2253 S_3 S3 Theorem19 thm
+R2262:2270 S_5 S5 Theorem49 thm
+R2262:2270 S_5 S5 Theorem49 thm
+R2289:2294 S_1 S1 AxiomI prfax
+R2289:2294 S_1 S1 AxiomI prfax
+R2324:2330 S_2 S2 AxiomII prfax
+R2324:2330 S_2 S2 AxiomII prfax
+R2350:2358 S_3 S3 Theorem19 thm
+R2350:2358 S_3 S3 Theorem19 thm
+R2384:2392 S_3 S3 Theorem19 thm
+R2384:2392 S_3 S3 Theorem19 thm
+R2406:2412 S_2 S2 AxiomII prfax
+R2406:2412 S_2 S2 AxiomII prfax
+R2442:2449 S_1 S1 Ensemble def
+R2451:2452 S_3 S3 Φ def
+R2442:2449 S_1 S1 Ensemble def
+R2451:2452 S_3 S3 Φ def
+R2477:2485 S_3 S3 Theorem26 thm
+R2477:2485 S_3 S3 Theorem26 thm
+R2497:2505 S_4 S4 Theorem33 thm
+R2497:2505 S_4 S4 Theorem33 thm
+R2535:2536 S_3 S3 Φ def
+R2535:2536 S_3 S3 Φ def
+R2545:2553 S_3 S3 Theorem19 thm
+R2545:2553 S_3 S3 Theorem19 thm
+R2562:2570 S_5 S5 Theorem49 thm
+R2562:2570 S_5 S5 Theorem49 thm
+def 7364:7368 S6 Value
+binder 7370:7370 <> f:19
+binder 7372:7372 <> x:20
+R7376:7380 S_1 S1 Class defax
+R7385:7388 S_3 S3 :::'∩'_x not
+R7389:7391 S_2 S2 :::'\{'_x_'\}' not
+R7409:7411 S_2 S2 :::'\{'_x_'\}' not
+R7392:7394 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R7396:7397 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 7395:7395 <> y:21
+R7403:7407 S_1 S1 :::x_'∈'_x not
+R7398:7398 S_5 S5 :::'['_x_','_x_']' not
+R7400:7400 S_5 S5 :::'['_x_','_x_']' not
+R7402:7402 S_5 S5 :::'['_x_','_x_']' not
+R7399:7399 S_6 <> x:20 var
+R7401:7401 S_6 <> y:21 var
+R7408:7408 S_6 <> f:19 var
+R7438:7442 S_6 S6 Value def
+not 7424:7424 S6 :::x_'['_x_']'
+prf 7495:7508 S6 Property_Value
+binder 7519:7519 <> f:22
+binder 7521:7521 <> x:23
+R7536:7539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7526:7533 S_6 S6 Function def
+R7535:7535 S_6 <> f:22 var
+R7554:7557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7541:7545 S_1 S1 :::x_'∈'_x not
+R7540:7540 S_6 <> x:23 var
+R7546:7550 S_6 S6 :::'dom('_x_')' not
+R7552:7553 S_6 S6 :::'dom('_x_')' not
+R7551:7551 S_6 <> f:22 var
+R7566:7570 S_1 S1 :::x_'∈'_x not
+R7558:7558 S_5 S5 :::'['_x_','_x_']' not
+R7560:7560 S_5 S5 :::'['_x_','_x_']' not
+R7565:7565 S_5 S5 :::'['_x_','_x_']' not
+R7559:7559 S_6 <> x:23 var
+R7562:7562 S_6 S6 :::x_'['_x_']' not
+R7564:7564 S_6 S6 :::x_'['_x_']' not
+R7561:7561 S_6 <> f:22 var
+R7563:7563 S_6 <> x:23 var
+R7571:7571 S_6 <> f:22 var
+R7599:7606 S_6 S6 Function def
+R7634:7640 S_2 S2 AxiomII prfax
+R7634:7640 S_2 S2 AxiomII prfax
+R7672:7674 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7676:7676 S_6 S6 :::x_'['_x_']' not
+R7678:7678 S_6 S6 :::x_'['_x_']' not
+R7672:7674 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7676:7676 S_6 S6 :::x_'['_x_']' not
+R7678:7678 S_6 S6 :::x_'['_x_']' not
+R7693:7698 S_1 S1 AxiomI prfax
+R7693:7698 S_1 S1 AxiomI prfax
+R7728:7734 S_2 S2 AxiomII prfax
+R7728:7734 S_2 S2 AxiomII prfax
+R7757:7764 S_1 S1 Ensemble def
+R7794:7800 S_2 S2 AxiomII prfax
+R7794:7800 S_2 S2 AxiomII prfax
+R7835:7837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7835:7837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7914:7920 S_2 S2 AxiomII prfax
+R7914:7920 S_2 S2 AxiomII prfax
+R7957:7963 S_2 S2 AxiomII prfax
+R7957:7963 S_2 S2 AxiomII prfax
+R7993:8000 S_1 S1 Ensemble def
+R8003:8003 S_5 S5 :::'['_x_','_x_']' not
+R8005:8005 S_5 S5 :::'['_x_','_x_']' not
+R8008:8008 S_5 S5 :::'['_x_','_x_']' not
+R7993:8000 S_1 S1 Ensemble def
+R8003:8003 S_5 S5 :::'['_x_','_x_']' not
+R8005:8005 S_5 S5 :::'['_x_','_x_']' not
+R8008:8008 S_5 S5 :::'['_x_','_x_']' not
+R8028:8035 S_1 S1 Ensemble def
+R8059:8067 S_5 S5 Theorem49 thm
+R8059:8067 S_5 S5 Theorem49 thm
+prf 8222:8230 S6 Theorem69
+binder 8240:8240 <> x:24
+binder 8242:8242 <> f:25
+R8247:8248 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8278:8285 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8318:8319 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8265:8268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8250:8255 S_3 S3 :::x_'∉'_x not
+R8264:8264 S_3 S3 :::x_'∉'_x not
+R8249:8249 S_6 <> x:24 var
+R8256:8260 S_6 S6 :::'dom('_x_')' not
+R8262:8263 S_6 S6 :::'dom('_x_')' not
+R8261:8261 S_6 <> f:25 var
+R8273:8275 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8270:8270 S_6 S6 :::x_'['_x_']' not
+R8272:8272 S_6 S6 :::x_'['_x_']' not
+R8269:8269 S_6 <> f:25 var
+R8271:8271 S_6 <> x:24 var
+R8276:8277 S_3 S3 μ def
+R8300:8303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8287:8291 S_1 S1 :::x_'∈'_x not
+R8286:8286 S_6 <> x:24 var
+R8292:8296 S_6 S6 :::'dom('_x_')' not
+R8298:8299 S_6 S6 :::'dom('_x_')' not
+R8297:8297 S_6 <> f:25 var
+R8304:8304 S_1 S1 :::x_'∈'_x not
+R8309:8315 S_1 S1 :::x_'∈'_x not
+R8306:8306 S_6 S6 :::x_'['_x_']' not
+R8308:8308 S_6 S6 :::x_'['_x_']' not
+R8305:8305 S_6 <> f:25 var
+R8307:8307 S_6 <> x:24 var
+R8316:8317 S_3 S3 μ def
+R8352:8360 S_4 S4 Theorem35 thm
+R8398:8400 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8375:8377 S_2 S2 :::'\{'_x_'\}' not
+R8395:8397 S_2 S2 :::'\{'_x_'\}' not
+R8378:8380 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R8382:8383 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 8381:8381 <> y:26
+R8389:8393 S_1 S1 :::x_'∈'_x not
+R8384:8384 S_5 S5 :::'['_x_','_x_']' not
+R8386:8386 S_5 S5 :::'['_x_','_x_']' not
+R8388:8388 S_5 S5 :::'['_x_','_x_']' not
+R8387:8387 S_6 <> y:26 var
+R8401:8402 S_3 S3 Φ def
+R8398:8400 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8375:8377 S_2 S2 :::'\{'_x_'\}' not
+R8395:8397 S_2 S2 :::'\{'_x_'\}' not
+R8378:8380 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R8382:8383 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 8381:8381 <> y:27
+R8389:8393 S_1 S1 :::x_'∈'_x not
+R8384:8384 S_5 S5 :::'['_x_','_x_']' not
+R8386:8386 S_5 S5 :::'['_x_','_x_']' not
+R8388:8388 S_5 S5 :::'['_x_','_x_']' not
+R8387:8387 S_6 <> y:27 var
+R8401:8402 S_3 S3 Φ def
+R8418:8423 S_1 S1 AxiomI prfax
+R8418:8423 S_1 S1 AxiomI prfax
+R8454:8460 S_2 S2 AxiomII prfax
+R8454:8460 S_2 S2 AxiomII prfax
+R8495:8506 S_6 S6 Property_dom thm
+R8495:8506 S_6 S6 Property_dom thm
+R8534:8542 S_3 S3 Theorem16 thm
+R8534:8542 S_3 S3 Theorem16 thm
+R8577:8581 S_6 S6 Value def
+R8602:8610 S_3 S3 Theorem24 thm
+R8602:8610 S_3 S3 Theorem24 thm
+R8631:8637 S_2 S2 AxiomII prfax
+R8631:8637 S_2 S2 AxiomII prfax
+R8668:8672 S_6 S6 Value def
+R8687:8688 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8717:8717 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8712:8714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8689:8691 S_2 S2 :::'\{'_x_'\}' not
+R8709:8711 S_2 S2 :::'\{'_x_'\}' not
+R8692:8694 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R8696:8697 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 8695:8695 <> y:28
+R8703:8707 S_1 S1 :::x_'∈'_x not
+R8698:8698 S_5 S5 :::'['_x_','_x_']' not
+R8700:8700 S_5 S5 :::'['_x_','_x_']' not
+R8702:8702 S_5 S5 :::'['_x_','_x_']' not
+R8701:8701 S_6 <> y:28 var
+R8715:8716 S_3 S3 Φ def
+R8687:8688 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8717:8717 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8712:8714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8689:8691 S_2 S2 :::'\{'_x_'\}' not
+R8709:8711 S_2 S2 :::'\{'_x_'\}' not
+R8692:8694 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R8696:8697 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 8695:8695 <> y:29
+R8703:8707 S_1 S1 :::x_'∈'_x not
+R8698:8698 S_5 S5 :::'['_x_','_x_']' not
+R8700:8700 S_5 S5 :::'['_x_','_x_']' not
+R8702:8702 S_5 S5 :::'['_x_','_x_']' not
+R8701:8701 S_6 <> y:29 var
+R8715:8716 S_3 S3 Φ def
+R8744:8749 S_1 S1 :::x_'∈'_x not
+R8774:8774 S_1 S1 :::x_'∈'_x not
+R8750:8752 S_2 S2 :::'\{'_x_'\}' not
+R8771:8773 S_2 S2 :::'\{'_x_'\}' not
+R8753:8755 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R8757:8758 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 8756:8756 <> y:30
+R8765:8769 S_1 S1 :::x_'∈'_x not
+R8759:8759 S_5 S5 :::'['_x_','_x_']' not
+R8761:8762 S_5 S5 :::'['_x_','_x_']' not
+R8764:8764 S_5 S5 :::'['_x_','_x_']' not
+R8763:8763 S_6 <> y:30 var
+R8744:8749 S_1 S1 :::x_'∈'_x not
+R8774:8774 S_1 S1 :::x_'∈'_x not
+R8750:8752 S_2 S2 :::'\{'_x_'\}' not
+R8771:8773 S_2 S2 :::'\{'_x_'\}' not
+R8753:8755 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R8757:8758 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 8756:8756 <> y:31
+R8765:8769 S_1 S1 :::x_'∈'_x not
+R8759:8759 S_5 S5 :::'['_x_','_x_']' not
+R8761:8762 S_5 S5 :::'['_x_','_x_']' not
+R8764:8764 S_5 S5 :::'['_x_','_x_']' not
+R8763:8763 S_6 <> y:31 var
+R8792:8798 S_2 S2 AxiomII prfax
+R8792:8798 S_2 S2 AxiomII prfax
+R8830:8837 S_1 S1 Ensemble def
+R8840:8840 S_5 S5 :::'['_x_','_x_']' not
+R8842:8842 S_5 S5 :::'['_x_','_x_']' not
+R8845:8845 S_5 S5 :::'['_x_','_x_']' not
+R8830:8837 S_1 S1 Ensemble def
+R8840:8840 S_5 S5 :::'['_x_','_x_']' not
+R8842:8842 S_5 S5 :::'['_x_','_x_']' not
+R8845:8845 S_5 S5 :::'['_x_','_x_']' not
+R8867:8874 S_1 S1 Ensemble def
+R8899:8907 S_5 S5 Theorem49 thm
+R8899:8907 S_5 S5 Theorem49 thm
+R8953:8961 S_3 S3 Theorem16 thm
+R8953:8961 S_3 S3 Theorem16 thm
+R8988:8996 S_4 S4 Theorem35 thm
+R8988:8996 S_4 S4 Theorem35 thm
+R9011:9019 S_3 S3 Theorem19 thm
+R9011:9019 S_3 S3 Theorem19 thm
+prf 9068:9082 S6 Property_Value'
+binder 9093:9093 <> f:32
+binder 9095:9095 <> x:33
+R9110:9113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9100:9107 S_6 S6 Function def
+R9109:9109 S_6 <> f:32 var
+R9129:9132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9118:9122 S_1 S1 :::x_'∈'_x not
+R9115:9115 S_6 S6 :::x_'['_x_']' not
+R9117:9117 S_6 S6 :::x_'['_x_']' not
+R9114:9114 S_6 <> f:32 var
+R9116:9116 S_6 <> x:33 var
+R9123:9126 S_6 S6 :::'ran('_x_')' not
+R9128:9128 S_6 S6 :::'ran('_x_')' not
+R9127:9127 S_6 <> f:32 var
+R9141:9145 S_1 S1 :::x_'∈'_x not
+R9133:9133 S_5 S5 :::'['_x_','_x_']' not
+R9135:9135 S_5 S5 :::'['_x_','_x_']' not
+R9140:9140 S_5 S5 :::'['_x_','_x_']' not
+R9134:9134 S_6 <> x:33 var
+R9137:9137 S_6 S6 :::x_'['_x_']' not
+R9139:9139 S_6 S6 :::x_'['_x_']' not
+R9136:9136 S_6 <> f:32 var
+R9138:9138 S_6 <> x:33 var
+R9146:9146 S_6 <> f:32 var
+R9172:9185 S_6 S6 Property_Value thm
+R9172:9185 S_6 S6 Property_Value thm
+R9202:9208 S_2 S2 AxiomII prfax
+R9202:9208 S_2 S2 AxiomII prfax
+R9235:9243 S_3 S3 Theorem19 thm
+R9235:9243 S_3 S3 Theorem19 thm
+R9288:9294 S_3 S3 classic prfax
+R9299:9303 S_1 S1 :::x_'∈'_x not
+R9304:9308 S_6 S6 :::'dom('_x_')' not
+R9310:9310 S_6 S6 :::'dom('_x_')' not
+R9288:9294 S_3 S3 classic prfax
+R9299:9303 S_1 S1 :::x_'∈'_x not
+R9304:9308 S_6 S6 :::'dom('_x_')' not
+R9310:9310 S_6 S6 :::'dom('_x_')' not
+R9330:9338 S_6 S6 Theorem69 thm
+R9330:9338 S_6 S6 Theorem69 thm
+R9357:9364 S_1 S1 Ensemble def
+R9367:9368 S_6 S6 :::x_'['_x_']' not
+R9370:9370 S_6 S6 :::x_'['_x_']' not
+R9357:9364 S_1 S1 Ensemble def
+R9367:9368 S_6 S6 :::x_'['_x_']' not
+R9370:9370 S_6 S6 :::x_'['_x_']' not
+R9385:9392 S_1 S1 Ensemble def
+R9430:9438 S_4 S4 Theorem39 thm
+R9430:9438 S_4 S4 Theorem39 thm
+prf 9613:9621 S6 Theorem70
+binder 9632:9632 <> f:34
+R9647:9650 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9637:9644 S_6 S6 Function def
+R9646:9646 S_6 <> f:34 var
+R9652:9654 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9651:9651 S_6 <> f:34 var
+R9655:9658 S_5 S5 :::'\{\'_x_'\}\' not
+R9675:9678 S_5 S5 :::'\{\'_x_'\}\' not
+R9659:9661 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R9665:9666 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 9662:9662 <> x:35
+binder 9664:9664 <> y:36
+R9668:9670 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9667:9667 S_6 <> y:36 var
+R9672:9672 S_6 S6 :::x_'['_x_']' not
+R9674:9674 S_6 S6 :::x_'['_x_']' not
+R9671:9671 S_6 <> f:34 var
+R9673:9673 S_6 <> x:35 var
+R9705:9710 S_1 S1 AxiomI prfax
+R9705:9710 S_1 S1 AxiomI prfax
+R9750:9758 S_5 S5 AxiomII_P prfax
+R9750:9758 S_5 S5 AxiomII_P prfax
+R9780:9787 S_1 S1 Ensemble def
+R9822:9829 S_6 S6 Function def
+R9894:9907 S_6 S6 Property_Value thm
+R9894:9907 S_6 S6 Property_Value thm
+R9926:9932 S_2 S2 AxiomII prfax
+R9926:9932 S_2 S2 AxiomII prfax
+R9954:9961 S_1 S1 Ensemble def
+R9964:9964 S_5 S5 :::'['_x_','_x_']' not
+R9966:9966 S_5 S5 :::'['_x_','_x_']' not
+R9968:9968 S_5 S5 :::'['_x_','_x_']' not
+R9954:9961 S_1 S1 Ensemble def
+R9964:9964 S_5 S5 :::'['_x_','_x_']' not
+R9966:9966 S_5 S5 :::'['_x_','_x_']' not
+R9968:9968 S_5 S5 :::'['_x_','_x_']' not
+R9985:9992 S_1 S1 Ensemble def
+R10014:10022 S_5 S5 Theorem49 thm
+R10014:10022 S_5 S5 Theorem49 thm
+R10097:10105 S_5 S5 AxiomII_P prfax
+R10097:10105 S_5 S5 AxiomII_P prfax
+R10165:10178 S_6 S6 Property_Value thm
+R10165:10178 S_6 S6 Property_Value thm
+R10197:10201 S_3 S3 NNPP' thm
+R10197:10201 S_3 S3 NNPP' thm
+R10217:10225 S_6 S6 Theorem69 thm
+R10217:10225 S_6 S6 Theorem69 thm
+R10284:10292 S_5 S5 Theorem49 thm
+R10284:10292 S_5 S5 Theorem49 thm
+R10313:10321 S_4 S4 Theorem39 thm
+R10313:10321 S_4 S4 Theorem39 thm
+prf 10446:10454 S6 Theorem71
+binder 10464:10464 <> f:37
+binder 10466:10466 <> g:38
+R10495:10500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10532:10532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10481:10484 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10471:10478 S_6 S6 Function def
+R10480:10480 S_6 <> f:37 var
+R10485:10492 S_6 S6 Function def
+R10494:10494 S_6 <> g:38 var
+R10506:10510 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10502:10504 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10501:10501 S_6 <> f:37 var
+R10505:10505 S_6 <> g:38 var
+binder 10518:10518 <> x:39
+R10525:10527 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10522:10522 S_6 S6 :::x_'['_x_']' not
+R10524:10524 S_6 S6 :::x_'['_x_']' not
+R10521:10521 S_6 <> f:37 var
+R10523:10523 S_6 <> x:39 var
+R10529:10529 S_6 S6 :::x_'['_x_']' not
+R10531:10531 S_6 S6 :::x_'['_x_']' not
+R10528:10528 S_6 <> g:38 var
+R10530:10530 S_6 <> x:39 var
+R10612:10620 S_6 S6 Theorem70 thm
+R10612:10620 S_6 S6 Theorem70 thm
+R10612:10620 S_6 S6 Theorem70 thm
+R10637:10642 S_1 S1 AxiomI prfax
+R10637:10642 S_1 S1 AxiomI prfax
+R10718:10726 S_5 S5 AxiomII_P prfax
+R10718:10726 S_5 S5 AxiomII_P prfax
+R10735:10743 S_5 S5 AxiomII_P prfax
+R10735:10743 S_5 S5 AxiomII_P prfax
+R10859:10867 S_5 S5 AxiomII_P prfax
+R10859:10867 S_5 S5 AxiomII_P prfax
+R10876:10884 S_5 S5 AxiomII_P prfax
+R10876:10884 S_5 S5 AxiomII_P prfax
+def 18095:18103 S6 Cartesian
+binder 18105:18105 <> x:40
+binder 18107:18107 <> y:41
+R18111:18115 S_1 S1 Class defax
+R18120:18123 S_5 S5 :::'\{\'_x_'\}\' not
+R18146:18149 S_5 S5 :::'\{\'_x_'\}\' not
+R18124:18126 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R18130:18131 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 18127:18127 <> u:42
+binder 18129:18129 <> v:43
+R18137:18140 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18133:18135 S_1 S1 :::x_'∈'_x not
+R18132:18132 S_6 <> u:42 var
+R18136:18136 S_6 <> x:40 var
+R18142:18144 S_1 S1 :::x_'∈'_x not
+R18141:18141 S_6 <> v:43 var
+R18145:18145 S_6 <> y:41 var
+R18175:18183 S_6 S6 Cartesian def
+not 18162:18162 S6 :::x_'×'_x
+prf 18290:18298 S6 Theorem73
+binder 18309:18309 <> u:44
+binder 18311:18311 <> y:45
+R18340:18343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18326:18329 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18316:18323 S_1 S1 Ensemble def
+R18325:18325 S_6 <> u:44 var
+R18330:18337 S_1 S1 Ensemble def
+R18339:18339 S_6 <> y:45 var
+R18344:18351 S_1 S1 Ensemble def
+R18357:18360 S_6 S6 :::x_'×'_x not
+R18354:18354 S_4 S4 :::'['_x_']' not
+R18356:18356 S_4 S4 :::'['_x_']' not
+R18355:18355 S_6 <> u:44 var
+R18361:18361 S_6 <> y:45 var
+R18405:18411 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R18413:18414 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 18412:18412 <> f:46
+R18425:18428 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18415:18422 S_6 S6 Function def
+R18424:18424 S_6 <> f:46 var
+R18438:18441 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18435:18436 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18429:18432 S_6 S6 :::'dom('_x_')' not
+R18434:18434 S_6 S6 :::'dom('_x_')' not
+R18433:18433 S_6 <> f:46 var
+R18448:18448 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18442:18445 S_6 S6 :::'ran('_x_')' not
+R18447:18447 S_6 S6 :::'ran('_x_')' not
+R18446:18446 S_6 <> f:46 var
+R18452:18455 S_6 S6 :::x_'×'_x not
+R18449:18449 S_4 S4 :::'['_x_']' not
+R18451:18451 S_4 S4 :::'['_x_']' not
+R18405:18411 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R18413:18414 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 18412:18412 <> f:47
+R18425:18428 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18415:18422 S_6 S6 Function def
+R18424:18424 S_6 <> f:47 var
+R18438:18441 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18435:18436 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18429:18432 S_6 S6 :::'dom('_x_')' not
+R18434:18434 S_6 S6 :::'dom('_x_')' not
+R18433:18433 S_6 <> f:47 var
+R18448:18448 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18442:18445 S_6 S6 :::'ran('_x_')' not
+R18447:18447 S_6 S6 :::'ran('_x_')' not
+R18446:18446 S_6 <> f:47 var
+R18452:18455 S_6 S6 :::x_'×'_x not
+R18449:18449 S_4 S4 :::'['_x_']' not
+R18451:18451 S_4 S4 :::'['_x_']' not
+R18473:18476 S_5 S5 :::'\{\'_x_'\}\' not
+R18505:18508 S_5 S5 :::'\{\'_x_'\}\' not
+R18477:18479 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R18483:18484 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 18480:18480 <> w:48
+binder 18482:18482 <> z:49
+R18492:18495 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18486:18490 S_1 S1 :::x_'∈'_x not
+R18485:18485 S_6 <> w:48 var
+R18497:18499 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18496:18496 S_6 <> z:49 var
+R18500:18500 S_5 S5 :::'['_x_','_x_']' not
+R18502:18502 S_5 S5 :::'['_x_','_x_']' not
+R18504:18504 S_5 S5 :::'['_x_','_x_']' not
+R18503:18503 S_6 <> w:48 var
+R18473:18476 S_5 S5 :::'\{\'_x_'\}\' not
+R18505:18508 S_5 S5 :::'\{\'_x_'\}\' not
+R18477:18479 S_3 S3 :::'λ'_x_'..'_x_','_x not
+R18483:18484 S_3 S3 :::'λ'_x_'..'_x_','_x not
+binder 18480:18480 <> w:50
+binder 18482:18482 <> z:51
+R18492:18495 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18486:18490 S_1 S1 :::x_'∈'_x not
+R18485:18485 S_6 <> w:50 var
+R18497:18499 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18496:18496 S_6 <> z:51 var
+R18500:18500 S_5 S5 :::'['_x_','_x_']' not
+R18502:18502 S_5 S5 :::'['_x_','_x_']' not
+R18504:18504 S_5 S5 :::'['_x_','_x_']' not
+R18503:18503 S_6 <> w:50 var
+R18543:18550 S_5 S5 Relation def
+R18567:18576 S_5 S5 Property_P prfax
+R18567:18576 S_5 S5 Property_P prfax
+R18636:18644 S_5 S5 AxiomII_P prfax
+R18636:18644 S_5 S5 AxiomII_P prfax
+R18675:18683 S_5 S5 AxiomII_P prfax
+R18675:18683 S_5 S5 AxiomII_P prfax
+R18741:18746 S_1 S1 AxiomI prfax
+R18741:18746 S_1 S1 AxiomI prfax
+R18776:18782 S_2 S2 AxiomII prfax
+R18776:18782 S_2 S2 AxiomII prfax
+R18819:18827 S_5 S5 AxiomII_P prfax
+R18819:18827 S_5 S5 AxiomII_P prfax
+R18855:18861 S_2 S2 AxiomII prfax
+R18855:18861 S_2 S2 AxiomII prfax
+R18878:18885 S_1 S1 Ensemble def
+R18908:18908 S_5 S5 :::'['_x_','_x_']' not
+R18910:18910 S_5 S5 :::'['_x_','_x_']' not
+R18912:18912 S_5 S5 :::'['_x_','_x_']' not
+R18908:18908 S_5 S5 :::'['_x_','_x_']' not
+R18910:18910 S_5 S5 :::'['_x_','_x_']' not
+R18912:18912 S_5 S5 :::'['_x_','_x_']' not
+R18921:18929 S_5 S5 AxiomII_P prfax
+R18921:18929 S_5 S5 AxiomII_P prfax
+R18957:18965 S_5 S5 Theorem49 thm
+R18957:18965 S_5 S5 Theorem49 thm
+R18988:18995 S_1 S1 Ensemble def
+R19011:19019 S_5 S5 Theorem49 thm
+R19011:19019 S_5 S5 Theorem49 thm
+R19048:19055 S_1 S1 Ensemble def
+R19077:19082 S_1 S1 AxiomI prfax
+R19077:19082 S_1 S1 AxiomI prfax
+R19112:19118 S_2 S2 AxiomII prfax
+R19112:19118 S_2 S2 AxiomII prfax
+R19149:19157 S_5 S5 AxiomII_P prfax
+R19149:19157 S_5 S5 AxiomII_P prfax
+R19201:19209 S_6 S6 Cartesian def
+R19224:19232 S_5 S5 AxiomII_P prfax
+R19224:19232 S_5 S5 AxiomII_P prfax
+R19254:19262 S_5 S5 Theorem49 thm
+R19254:19262 S_5 S5 Theorem49 thm
+R19291:19298 S_1 S1 Ensemble def
+R19327:19335 S_4 S4 Theorem41 thm
+R19327:19335 S_4 S4 Theorem41 thm
+R19373:19381 S_5 S5 AxiomII_P prfax
+R19373:19381 S_5 S5 AxiomII_P prfax
+R19412:19418 S_2 S2 AxiomII prfax
+R19412:19418 S_2 S2 AxiomII prfax
+R19457:19465 S_5 S5 AxiomII_P prfax
+R19457:19465 S_5 S5 AxiomII_P prfax
+R19500:19508 S_5 S5 Theorem49 thm
+R19500:19508 S_5 S5 Theorem49 thm
+R19537:19544 S_1 S1 Ensemble def
+R19566:19574 S_4 S4 Theorem41 thm
+R19566:19574 S_4 S4 Theorem41 thm

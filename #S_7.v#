@@ -1,0 +1,62 @@
+(* S.7 良序 *)
+Require Export S_6.
+
+
+Module S6.
+
+(* 定义81  xry当且仅当(x,y)∈r *)
+
+Definition Rrelation x r y : Prop := [x,y] ∈ r.
+
+
+(* 定义82 r连接x 当且仅当 u与v属于x时,不是urv 便是vru *)
+
+Definition Connect r x : Prop :=
+  forall u v, u ∈ x /\ v ∈ x -> (Rrelation u r v) \/ (Rrelation v r u) 
+\/ (u = v).
+
+
+(* 定义83 r在x中是传递的当且仅当u、v与w 均为x的元 而且urv 和vrw 时，则urw *)
+
+Definition Transitive r x : Prop := 
+  forall u v w,(u ∈ x /\ v ∈ x /\ w ∈ x /\ Rrelation u r v /\ Rrelation v r w)
+-> Rrelation u r w.
+
+
+(* 定义84 r在x中是非对称的 当且仅当u与v均为x的元 并且urv,则vru不真*)
+
+Definition Asymmeteric r x : Prop :=
+  forall u v, (u ∈ x /\ v ∈ x /\ Rrelation u r v)-> ~ Rrelation v r u.
+
+
+Corollary Property_Asy : forall r x u, Asymmeteric r x -> u ∈ x 
+  -> ~ Rrelation u r u.
+Proof.
+  intros. intro. unfold Asymmeteric in H. (*  eapply H. eauto. auto. *)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
